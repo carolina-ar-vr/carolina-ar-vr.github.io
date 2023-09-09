@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import { Navbar, Hero } from './components' 
 
