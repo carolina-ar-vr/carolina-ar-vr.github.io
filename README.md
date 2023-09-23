@@ -1,3 +1,5 @@
 # Carolina AR/VR
 
-**uncarvr.org**
+## A repo for building Carolina AR/VR (CARVR)'s website!
+
+### [click here] to visit (uncarvr.org)
