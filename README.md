@@ -2,4 +2,4 @@
 
 ### A repo for building Carolina AR/VR (CARVR)'s website!
 
-visit [uncarvr.org]https://uncarvr.org/ here!
+visit https://uncarvr.org/
