@@ -3,14 +3,16 @@
 export default {
   data: () => {
     return {
-      name: 'Contact'
+      name: 'Hero'
     };
   },
 }
+
 </script>
 
 <template>
-
+  <div>
+  </div>
 </template>
 
 <style scoped>

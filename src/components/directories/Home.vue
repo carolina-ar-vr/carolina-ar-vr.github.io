@@ -1,8 +1,15 @@
 <template>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 
+export default {
+  data: () => {
+    return {
+      name: 'Home'
+    };
+  },
+}
 </script>
 
 <style scoped>

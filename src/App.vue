@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import NavBar from './components/NavBar.vue'
+import Hero from './components/Hero.vue'
 </script>
 
 <template>
-  <!-- Navigation Bar -->
+  <!-- Navigation Bar-->
   <div class = "navi-bar">
     <nav-bar>
-      <a v-bind:  >
     </nav-bar>
   </div>
 
-  <!-- HERO -->
+  <!-- Hero -->
   <div class = "hero">
-
+    <hero>
+    </hero>
   </div>
 
   <!--    <a href="https://vitejs.dev" target="_blank">-->
@@ -24,14 +25,6 @@ import NavBar from './components/NavBar.vue'
 </template>
 
 <style scoped>
-.navi-bar {
-  width: 1512px;
-  height: 96px;
-  flex-shrink: 0;
-  border-radius: 6px 6px 0px 0px;
-  background: rgba(255, 255, 255, 0.20);
-  box-shadow: 0px 4px 14px 0px rgba(21, 38, 92, 0.40);
-}
 .logo {
   height: 6em;
   padding: 1.5em;

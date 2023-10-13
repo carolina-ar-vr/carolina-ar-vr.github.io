@@ -1,5 +1,12 @@
-<script setup lang="ts">
+<script lang="ts">
 
+export default {
+  data: () => {
+    return {
+      name: 'Events'
+    };
+  },
+}
 </script>
 
 <template>
