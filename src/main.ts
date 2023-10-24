@@ -1,6 +1,6 @@
 import {createApp} from 'vue';
-
-// import {createRouter, createWebHistory} from 'vue-router';
+import Vue from 'vue';
+import VueRouter, {createRouter, createWebHistory} from 'vue-router';
 import './style.css';
 import App from './App.vue';
 import About from './router/About.vue';
@@ -12,41 +12,35 @@ import Events from './router/Events.vue';
 
 import './style.css';
 
-const routes = [
-    {
-        path: '/',
-        name: 'Home',
-        component: Home
-    },
-    {
-        path: '/about',
-        name: 'About',
-        component: About
-    },
-    {
-        path: '/contact',
-        name: 'Contact',
-        component: Contact
-    },
-    {
-        path: '/discover',
-        name: 'Discover',
-        component: Discover
-    },
-    {
-        path: '/events',
-        name: 'Events',
-        component: Events
-    }
-]
+const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        {
+            path: '/',
+            name: 'Home',
+            component: Home
+        },
+        {
+            path: '/about',
+            name: 'About',
+            component: About
+        },
+        {
+            path: '/contact',
+            name: 'Contact',
+            component: Contact
+        },
+        {
+            path: '/discover',
+            name: 'Discover',
+            component: Discover
+        },
+        {
+            path: '/events',
+            name: 'Events',
+            component: Events
+        }    ],
+});
 
+createApp(App).use(router).mount('#app')
 
-
-createApp(App).mount('#app')
-
-
-// const router = createRouter({
-//     history: createWebHistory(process.env.BASE_URL),
-//     routes,
-// })
-// export default router;
