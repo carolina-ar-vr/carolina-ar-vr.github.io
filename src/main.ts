@@ -1,13 +1,13 @@
 import {createApp} from 'vue';
 
-import {createRouter, createWebHistory} from 'vue-router';
+// import {createRouter, createWebHistory} from 'vue-router';
+import './style.css';
 import App from './App.vue';
-import Home from './components/directories/Home.vue';
-import Contact from './components/directories/Contact.vue';
-import Discover from './components/directories/Discover.vue';
-import Events from './components/directories/Events.vue';
-import About from './components/directories/About.vue';
-
+import About from './router/About.vue';
+import Home from './router/Home.vue';
+import Contact from './router/Contact.vue';
+import Discover from './router/Discover.vue';
+import Events from './router/Events.vue';
 
 
 import './style.css';
@@ -40,9 +40,13 @@ const routes = [
     }
 ]
 
-const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
-    routes,
-})
-export default router;
+
+
 createApp(App).mount('#app')
+
+
+// const router = createRouter({
+//     history: createWebHistory(process.env.BASE_URL),
+//     routes,
+// })
+// export default router;

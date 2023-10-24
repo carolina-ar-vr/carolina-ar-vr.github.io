@@ -1,49 +1,28 @@
 <template>
 
-  <header :class = "{ 'scrolled-nav' : scrollPosition }"> 
-  <nav>
-    <div class="brand">
-      <img src="" class="src">
-    </div>
-    <ul class="navigation">
-      <li><router-link to="/" >Home</router-link></li>
+  <div className="w-full flex py-6 px-6 items-center absolute inset-x-0 top-0 max-h-[96px] nav_background">
+    <ul>
+      <img src = '/src/assets/CARVR2D.png' alt = "carvr logo" className="w-24 h-20">
+      <li><router-link to="/about" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        About
+      </router-link></li>
 
-      <li><router-link to="/about">About</router-link></li>
+      <li><router-link to="/events" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        Events
+      </router-link></li>
 
-      <li><router-link to="/events" >Events</router-link></li>
+      <li><router-link to="/discover" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        Discover
+      </router-link></li>
 
-      <li><router-link to="/discover" >Discover</router-link></li>
-
-      <li><router-link to="/contact" >Contact</router-link></li>
+      <li><router-link to="/contact" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        Contact
+      </router-link></li>
     </ul>
-  </nav>
-  </header>
-
-<!--  <div>-->
-<!--    <ul>-->
-<!--      <li><router-link to="/" >Home</router-link></li>-->
-
-<!--      <li><router-link to="/about">About</router-link></li>-->
-
-<!--      <li><router-link to="/events" >Events</router-link></li>-->
-
-<!--      <li><router-link to="/discover" >Discover</router-link></li>-->
-
-<!--      <li><router-link to="/contact" >Contact</router-link></li>-->
-<!--    </ul>-->
-<!--  </div>-->
+  </div>
 </template>
 
 <script lang="ts">
-import { Vue } from 'vue';
-import {VueRouter} from 'vue-router';
-import About from './directories/About.vue'
-import Contact from './directories/Contact.vue';
-import Discover from './directories/Discover.vue';
-import Events from './directories/Events.vue';
-import Home from './directories/Home.vue';
-
-
 export default {
   data: () => {
     return {
@@ -54,6 +33,7 @@ export default {
 </script>
 
 <style scoped>
+
   h1 {
     color: #213547;
   }
@@ -61,12 +41,25 @@ export default {
     list-style: none;
     padding: 0;
     display: flex;
+
   }
   li {
     margin-right: 15px;
+    color: #FFF;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
   }
-  a {
-    color: white;
-    text-decoration: none;
+  img {
+
+  }
+  div {
+
+    border-radius: 6px 6px 0px 0px;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0px 4px 14px 0px rgba(21, 38, 92, 0.40);
   }
 </style>

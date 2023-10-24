@@ -5,7 +5,7 @@ import Hero from './components/Hero.vue'
 
 <template>
   <!-- Navigation Bar-->
-  <div class = "navi-bar">
+  <div class = "nav-bar">
     <nav-bar>
     </nav-bar>
   </div>
@@ -15,13 +15,6 @@ import Hero from './components/Hero.vue'
     <hero>
     </hero>
   </div>
-
-  <!--    <a href="https://vitejs.dev" target="_blank">-->
-  <!--      <img src="/vite.svg" class="logo" alt="Vite logo" />-->
-  <!--    </a>-->
-  <!--    <a href="https://vuejs.org/" target="_blank">-->
-  <!--      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />-->
-  <!--    </a>-->
 </template>
 
 <style scoped>

@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -78,3 +81,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.nav_text{
+  font-family: Chakra Petch;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav_background{
+  border-radius: 6px 6px 0px 0px;
+  background: rgba(255, 255, 255, 0.20);
+  box-shadow: 0px 4px 14px 0px rgba(21, 38, 92, 0.40);
+}
+
