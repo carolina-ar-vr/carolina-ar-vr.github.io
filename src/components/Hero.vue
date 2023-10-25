@@ -11,7 +11,8 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div >
+    <p>HERO</p>
   </div>
 </template>
 

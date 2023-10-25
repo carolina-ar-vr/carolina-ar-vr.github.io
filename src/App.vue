@@ -5,15 +5,17 @@ import Hero from './components/Hero.vue'
 
 <template>
   <!-- Navigation Bar-->
-  <div class = "nav-bar">
-    <nav-bar>
-    </nav-bar>
+  <div className="w-full px-6 flex justify-center items-center">
+    <div className="xl:max-w-[1280px] w-full">
+      <nav-bar></nav-bar>
+    </div>
   </div>
 
   <!-- Hero -->
-  <div class = "hero" >
-    <hero>
-    </hero>
+  <div className = "w-full px-6 flex justify-center items-center">
+    <div className="xl:max-w-[1280px] w-full">
+      <hero></hero>
+    </div>
   </div>
 </template>
 
