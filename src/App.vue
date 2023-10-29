@@ -20,5 +20,7 @@ import Hero from './components/Hero.vue'
 </template>
 
 <style scoped>
-
+hero {
+  color: black;
+}
 </style>

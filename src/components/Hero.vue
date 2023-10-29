@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
-  <div >
-    <p>HERO</p>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 

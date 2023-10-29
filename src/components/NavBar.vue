@@ -5,28 +5,28 @@
       <img src = '/src/assets/CARVR2D.png' alt = "carvr logo" className="w-24 h-20">
     </a>
     <ul className="flex px-20 items-center">
-      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
-        <router-link to="/" class="text-white">
+      <li className="cursor-pointer mr-12 duration-300 hover:text-black-400">
+        <router-link to="/" class="nav_text text-white">
           Home
         </router-link>
       </li>
-      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
-        <router-link to="/about" class="text-white">
+      <li className="cursor-pointer mr-12 duration-300 hover:text-black-400">
+        <router-link to="/about" class="nav_text text-white">
         About
         </router-link>
       </li>
-      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
-        <router-link to="/events" class="text-white">
+      <li className="cursor-pointer mr-12 duration-300 hover:text-black-400">
+        <router-link to="/events" class="nav_text text-white">
         Events
         </router-link>
       </li>
-      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
-        <router-link to="/discover" class="text-white">
+      <li className="cursor-pointer mr-12 duration-300 hover:text-black-400">
+        <router-link to="/discover" class="nav_text text-white">
         Discover
         </router-link>
       </li>
-      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
-        <router-link to="/contact"  class="text-white" >
+      <li className="cursor-pointer mr-12 duration-300 hover:text-black-400">
+        <router-link to="/contact"  class="nav_text text-white">
         Contact
       </router-link>
       </li>

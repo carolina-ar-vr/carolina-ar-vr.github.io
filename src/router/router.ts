@@ -1,9 +1,9 @@
 import {createRouter, createWebHistory} from "vue-router";
-import About from './router/About.vue';
-import Home from './router/Home.vue';
-import Contact from './router/Contact.vue';
-import Discover from './router/Discover.vue';
-import Events from './router/Events.vue';
+import About from '../views/About.vue';
+import Home from '../views/Home.vue';
+import Contact from '../views/Contact.vue';
+import Discover from '../views/Discover.vue';
+import Events from '../views/Events.vue';
 
 
 // The router object to hold the router history and the different routes

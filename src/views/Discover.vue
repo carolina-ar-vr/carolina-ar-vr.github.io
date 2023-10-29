@@ -1,19 +1,18 @@
+<template>
+  <h1>
+    DISCOVER
+  </h1>
+</template>
 <script lang="ts">
 
 export default {
   data: () => {
     return {
-      name: 'Contact'
+      name: 'Discover'
     };
   },
 }
 </script>
-
-<template>
-<p>
-  CONTACTS
-</p>
-</template>
 
 <style scoped>
 

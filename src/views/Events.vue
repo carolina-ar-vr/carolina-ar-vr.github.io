@@ -1,15 +1,14 @@
 <template>
-  <p></p>
-
+  <h1>
+    EVENTS
+  </h1>
 </template>
-
 <script lang="ts">
-
 
 export default {
   data: () => {
     return {
-      name: 'Home'
+      name: 'Events'
     };
   },
 }

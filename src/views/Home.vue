@@ -1,18 +1,21 @@
+<template>
+  <h1>
+    HOME
+  </h1>
+
+</template>
+
 <script lang="ts">
+
+
 export default {
   data: () => {
     return {
-      name: 'About'
+      name: 'Home'
     };
   },
 }
 </script>
-
-<template>
-  <div>
-    <h1>TEST</h1>
-  </div>
-</template>
 
 <style scoped>
 
