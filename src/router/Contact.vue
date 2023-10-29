@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-
+<p>
+  CONTACTS
+</p>
 </template>
 
 <style scoped>

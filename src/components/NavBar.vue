@@ -1,29 +1,35 @@
 <template>
 
   <div className="w-full flex py-6 px-6 items-center absolute inset-x-0 top-0 max-h-[96px] nav_background">
+    <a href="/">
+      <img src = '/src/assets/CARVR2D.png' alt = "carvr logo" className="w-24 h-20">
+    </a>
     <ul className="flex px-20 items-center">
-      <li>
-        <img src = '/src/assets/CARVR2D.png' alt = "carvr logo" className="w-24 h-20">
-      </li>
-      <li>
-        <router-link to="/" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
+        <router-link to="/" class="text-white">
           Home
         </router-link>
       </li>
-      <li><router-link to="/about" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
+        <router-link to="/about" class="text-white">
         About
-      </router-link></li>
-
-      <li><router-link to="/events" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        </router-link>
+      </li>
+      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
+        <router-link to="/events" class="text-white">
         Events
-      </router-link></li>
-
-      <li><router-link to="/discover" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        </router-link>
+      </li>
+      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
+        <router-link to="/discover" class="text-white">
         Discover
-      </router-link></li>
-      <li><router-link to="/contact" className="cursor-pointer mr-12 text-white nav_text hover:scale-125 duration-300 hover:text-black-400">
+        </router-link>
+      </li>
+      <li className="cursor-pointer mr-12 nav_text duration-300 hover:text-black-400">
+        <router-link to="/contact"  class="text-white" >
         Contact
-      </router-link></li>
+      </router-link>
+      </li>
     </ul>
   </div>
 </template>
