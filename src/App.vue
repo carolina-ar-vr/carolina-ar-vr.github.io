@@ -5,9 +5,9 @@ import Hero from './components/Hero.vue'
 
 <template>
   <!-- Navigation Bar-->
-  <div className="w-full px-6 flex justify-center items-center">
+  <div className="w-full px-6 flex fixed top-0 left-0 p-4 bg-black">
     <div className="xl:max-w-[1280px] w-full">
-      <nav-bar></nav-bar>
+      <nav-bar className = "top-0 sticky w-full justify-center items-center"></nav-bar>
     </div>
   </div>
 
