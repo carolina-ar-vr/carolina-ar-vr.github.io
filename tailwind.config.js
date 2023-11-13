@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'carvr': '#8EBDE5',
+      },
+    },
   },
   plugins: [],
-}
 
+}
