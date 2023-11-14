@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'carvr': '#8EBDE5',
+        'carvr': '#7EBDE5',
       },
     },
   },
