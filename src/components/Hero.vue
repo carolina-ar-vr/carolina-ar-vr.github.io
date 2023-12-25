@@ -10,11 +10,11 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class = "w-full h-full">
     <router-view></router-view>
   </div>
 </template>
 
-<style scoped>
+<style>
 
 </style>

@@ -4,17 +4,15 @@ import Hero from './components/Hero.vue'
 </script>
 
 <template>
-  <!-- Navigation Bar-->
-  <div className="w-full px-1 fixed top-0 left-0 p-4 bg-carvr">
-    <div className="p-1 w-full">
-      <nav-bar className = "top-0 -ml-32 w-full"></nav-bar>
+  <div class="w-full px-1 fixed top-0 bg-carvr">
+    <div class="w-full">
+      <nav-bar className = "top w-full"></nav-bar>
     </div>
   </div>
 
-  <!-- Hero -->
-  <div className = "w-full px-6 flex justify-center items-center">
-    <div className="xl:max-w-[1280px] w-full">
-      <hero></hero>
+  <div class = "mt-20 w-full justify-center flex">
+    <div class="w-full">
+      <hero className = "bg-blue-700 w-full h-full"></hero>
     </div>
   </div>
 </template>

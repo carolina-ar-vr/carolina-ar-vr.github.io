@@ -1,7 +1,9 @@
 <template>
-  <h1>
-    HOME
-  </h1>
+  <div class = "w-screen h-screen inset-0">
+    <h1 class = "text-white">
+      HOME
+    </h1>
+  </div>
 
 </template>
 
@@ -17,6 +19,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

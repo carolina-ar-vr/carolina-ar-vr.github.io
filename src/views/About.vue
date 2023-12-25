@@ -1,17 +1,6 @@
 <template>
-  <div class = "h-screen accent-black">
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
+  <div class = "h-full accent-black w-full">
+
       <h1>test</h1>
       <h1>test</h1>
       <h1>test</h1>
