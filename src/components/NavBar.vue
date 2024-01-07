@@ -4,28 +4,28 @@
       <router-link to= "/" class = "pr-10">
         <img src = '/src/assets/CARVR2D.png' alt = "carvr logo" class="w-24 h-20">
       </router-link>
-      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link to="/" class="nav_text text-white">
+      <li class="cursor-pointer mr-12 duration-900 hover:text-black-400">
+        <router-link :class=" {active: isActive('/')}" to="/" class="nav_text">
           Home
         </router-link>
       </li>
       <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link to="/about" class="nav_text text-white">
+        <router-link :class=" {active: isActive('/about')}" to="/about" class="nav_text">
         About
         </router-link>
       </li>
-      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link to="/events" class="nav_text text-white">
+      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400 ">
+        <router-link :class=" {active: isActive('/events')}" to="/events" class="nav_text">
         Events
         </router-link>
       </li>
       <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link to="/discover" class="nav_text text-white">
+        <router-link :class=" {active: isActive('/discover')}" to="/discover" class="nav_text">
         Discover
         </router-link>
       </li>
       <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link to="/contact"  class="nav_text text-white">
+        <router-link :class=" {active: isActive('/contact')}" to="/contact"  class="nav_text">
         Contact
       </router-link>
       </li>
@@ -40,6 +40,10 @@
 
 <script lang="ts">
 export default {
+  methods: {
+    isActive(routePath) {
+      return this.$route.path === routePath;
+    }},
   data: () => {
     return {
       name: 'nav-bar'
@@ -48,5 +52,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.active {
+
+}
 </style>

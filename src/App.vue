@@ -4,7 +4,7 @@ import Hero from './components/Hero.vue'
 </script>
 
 <template>
-  <div class="w-full px-1 fixed top-0 bg-carvr">
+  <div class="w-full px-1 fixed top-0 nav_background">
     <div class="w-full">
       <nav-bar className = "top w-full"></nav-bar>
     </div>
@@ -12,13 +12,10 @@ import Hero from './components/Hero.vue'
 
   <div class = "mt-20 w-full justify-center flex">
     <div class="w-full">
-      <hero className = "bg-blue-700 w-full h-full"></hero>
+      <hero className = "w-full h-full"></hero>
     </div>
   </div>
 </template>
 
-<style scoped>
-hero {
-  color: black;
-}
+<style>
 </style>
