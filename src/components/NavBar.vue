@@ -41,7 +41,7 @@
 <script lang="ts">
 export default {
   methods: {
-    isActive(routePath) {
+    isActive(routePath: any) {
       return this.$route.path === routePath;
     }},
   data: () => {
