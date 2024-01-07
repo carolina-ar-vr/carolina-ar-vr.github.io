@@ -7,7 +7,7 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": [
-        "./*"
+        "../*"
       ]
     },
 
