@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'carvr': '#7EBDE5',
+        'carvr-nav': '#99c9ea'
       },
     },
   },

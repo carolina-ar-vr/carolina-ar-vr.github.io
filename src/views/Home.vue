@@ -1,51 +1,51 @@
 <template>
 
   <!-- carolina ar/vr-->
-  <div class = "w-screen h-screen inset-0 flex border-8">
+  <div class = "w-screen h-screen inset-0 flex">
     <div class = "w-1/2 flex items-center">
-      <div class = "bg-amber-400 items-center justify-center flex-col">
-        <div class = "relative">
-          <h1 class = "absolute">
-            CAROLINA <br> AR/VR
-          </h1>
-          <h1 class = "absolute px-2 glow-text">
-            CAROLINA <br> AR/VR
-          </h1>
-        </div>
-        <div class = "relative">
-          <h3>
-            Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
-            exploration and development of extended reality technologies!
-          </h3>
-        </div>
-      </div>
-      <div>
-
+      <div class = "pl-14 items-center justify-center flex-col relative pb-28">
+        <h1 class = "absolute">
+          CAROLINA <br> AR/VR
+        </h1>
+        <h1 class = "absolute px-1.5 glow-text">
+          CAROLINA <br> AR/VR
+        </h1>
+        <h3 class = "pt-60 pb-28">
+          Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
+          exploration and development of extended reality technologies!
+        </h3>
+        <button class = "purpleGradient h-16 w-72 text-xl">
+          LEARN MORE
+        </button>
       </div>
     </div>
-    <div class = "gradSplotch">
+<!--    <div class = "gradSplotch">-->
 
-    </div>
-    <div class = "w-1/2 bg-carvr flex items-center">
+<!--    </div>-->
+    <div class = "w-1/2 bg-carvr flex items-center pb-28">
       <img src="../assets/CARVR2D.png" alt="carvrlogo">
     </div>
   </div>
+
   <!-- what is ar/vr -->
-  <div class = "w-screen h-screen inset-0 flex border-8">
+  <div class = "w-screen h-screen inset-0 flex">
     <div class = "w-1/2 bg-carvr flex items-center">
       <img src="../assets/CARVR2D.png" alt="carvrlogo">
     </div>
-    <div class = "w-1/2 flex items-center">
-      <div class = "bg-amber-400">
-        <h1 class = "">
-          What is AR/VR
+    <div class = "w-1/2 flex items-center pr-14">
+      <div class = "items-center justify-center flex-col relative">
+        <h1 class = "absolute">
+          WHAT IS AR/VR
         </h1>
-        <h3 class = "">
+        <h1 class = "absolute px-1.5 glow-text">
+          WHAT IS AR/VR
+        </h1>
+        <h3 class = "pt-32">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </h3>
       </div>
     </div>
@@ -53,26 +53,31 @@
 
   <!-- what we do section -->
   <div class = "w-screen h-screen inset-0 flex border-8">
-    <div class = "p-10">
-      <h1>
-        WHAT WE DO
-      </h1>
+    <div class = "relative w-screen">
+      <div class = "inset-0">
+        <h1 class = "absolute">
+          WHAT WE DO
+        </h1>
+        <h1 class = "absolute px-1.5 glow-text">
+          WHAT WE DO
+        </h1>
+      </div>
       <div class="flex">
-        <div class = "">
-
+        <div class = "bg-pink-900">
+          <h1>1</h1>
         </div>
-        <div class = "">
-
+        <div class = "bg-pink-900">
+          <h1>2</h1>
         </div>
-        <div class = "">
-
+        <div class = "bg-pink-900">
+          <h1>3</h1>
         </div>
       </div>
     </div>
   </div>
 
   <!-- footer -->
-  <div class = "border-8 p-6 purpleGradient">
+  <div class = "p-6 purpleGradient">
     <footer class = "bg-amber-400 items-center flex justify-between">
       <div class = "bg-black w-1/4">
         <h1>LOGO SIDE </h1>
@@ -120,13 +125,8 @@ export default {
     background: linear-gradient(105deg, #554688 12.57%, #343166 71.15%);
   }
   .glow-text{
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
     color: transparent;
-    background: linear-gradient(90deg, rgba(238, 0, 255, 1) 0%, rgba(89, 0, 255, 1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    filter: drop-shadow(0 0 6px rgba(238, 0, 255, .75))
-    drop-shadow(0 0 25px rgba(89, 0, 255, .5));
+    -webkit-text-stroke: 2px #EF84F5;
+    font-weight: 700;
   }
 </style>

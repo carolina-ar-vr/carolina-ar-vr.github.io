@@ -4,7 +4,7 @@ import Hero from './components/Hero.vue'
 </script>
 
 <template>
-  <div class="w-full px-1 fixed top-0 nav_background">
+  <div class="w-full px-1 fixed top-0 nav_background z-10">
     <div class="w-full">
       <nav-bar className = "top w-full"></nav-bar>
     </div>
