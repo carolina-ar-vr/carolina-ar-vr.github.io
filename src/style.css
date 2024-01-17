@@ -12,7 +12,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -58,7 +57,7 @@ h3 {
   line-height: normal;
 }
 
-.button {
+button {
   color: #FFF;
   font-family: Chakra Petch;
   font-size: 20px;
@@ -78,4 +77,28 @@ h3 {
 .nav_background{
   border-radius: 6px 6px 0px 0px;
   background: #99c9ea;
+}
+.purpleFade {
+  width: 447px;
+  height: 540px;
+  flex-shrink: 0;
+  opacity: 0.56;
+  background: #554688;
+  filter: blur(100px);
+}
+.pinkFade {
+  border-radius: 540px;
+  opacity: 0.56;
+  background: #EA3381;
+
+  filter: blur(200px);
+}
+
+.purpleGradient {
+  background: linear-gradient(105deg, #554688 12.57%, #343166 71.15%);
+}
+.glow-text{
+  color: transparent;
+  -webkit-text-stroke: 2px #EF84F5;
+  font-weight: 700;
 }
