@@ -1,7 +1,11 @@
 <template>
 
-  <!-- carolina ar/vr-->
-  <section class = "relative flex-col flex align-middle">
+  <pink-fade class = "left-0 p-20"></pink-fade>
+  <purple-fade class = "right-0 top-2 p-20"></purple-fade>
+  <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>
+
+  s<!-- carolina ar/vr-->
+  <section class = "relative flex-col flex align-middle border">
     <div class = "w-screen h-screen inset-0 flex">
       <div class = "w-1/2 flex items-center">
         <div class = "pl-14 items-center justify-center flex-col relative pb-28">
@@ -26,21 +30,18 @@
     </div>
   </section>
 
-  <div class = "purpleFade absolute right-0 p-20">
-    <h1>CARARVR</h1>
-  </div>
-
-  <!-- what is ar/vr -->
-  <section class = "relative">
-   <div class = "w-screen h-screen inset-0 flex">
-     <div class = "w-1/2 flex items-center">
-       <div class = "bg-carvr-footer w-1/4 h-1/4 left-16 absolute">
-        FILLER
+  <purple-fade class = "right-0 p-20"></purple-fade>
+   <!-- what is ar/vr -->
+  <section class = "relative pb-20 border ">
+   <pink-fade class = "bottom-0 left-0 p-20"></pink-fade>
+   <div class = "w-screen h-full flex pt-28">
+     <div class = "w-1/2 relative border">
+       <div class = "w-3/4 ">
+         <img src="../assets/GBMPhoto.png" alt="gbmphoto">
        </div>
-<!--       <img src="../assets/CARVR2D.png" alt="carvrlogo">-->
      </div>
-     <div class = "w-1/2 flex items-center pr-14">
-       <div class = "items-center justify-center flex-col relative">
+     <div class = "w-1/2 flex">
+       <div class = "justify-center flex-col">
          <h1 class = "absolute">
            WHAT IS AR/VR
          </h1>
@@ -60,7 +61,7 @@
   </section>
 
   <!-- what we do section -->
-  <section class = "relative bg-carvr-last">
+  <section class = "relative bg-carvr-last border">
    <div class = "w-screen h-screen inset-0 flex border-8">
      <div class = "flex-col w-screen">
        <div class = "relative">
@@ -120,9 +121,11 @@
 </template>
 
 <script lang="ts">
-
+import PinkFade from '../components/pinkFade.vue';
+import PurpleFade from '../components/purpleFade.vue';
 
 export default {
+  components: {PurpleFade, PinkFade},
   data: () => {
     return {
       name: 'Home'
