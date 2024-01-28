@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import NavBar from './components/NavBar.vue'
 import Hero from './components/Hero.vue'
-import CarvrFooter from "./components/CarvrFooter.vue";
 </script>
 
 <template>

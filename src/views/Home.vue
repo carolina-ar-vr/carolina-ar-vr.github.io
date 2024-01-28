@@ -93,7 +93,7 @@
                <img src="../assets/GBMPhoto.png" alt="whatwedo1">
              </div>
              <div class = "h-1/2">
-               <h3>test</h3>
+               <h3>ICXR</h3>
                <p>lorum lipsum</p>
                <button class = "blueGradient h-16 w-72 text-xl">
                  LEARN MORE
