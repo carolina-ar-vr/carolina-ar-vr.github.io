@@ -121,7 +121,7 @@
    </div>
   </section>
 
-  <carvr-footer></carvr-footer>
+  <carvr-footer class="invisible "></carvr-footer>
 
 </template>
 
