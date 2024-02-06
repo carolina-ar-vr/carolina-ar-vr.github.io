@@ -68,7 +68,7 @@
          <h1 class = "absolute">
            WHAT WE DO
          </h1>
-         <h1 class = "absolute pl-3 glow-text">
+         <h1 class = "absolute pl-1.5 sm:pl-3 glow-text">
            WHAT WE DO
          </h1>
        </div>
@@ -76,10 +76,10 @@
          <div class = "flex justify-center h-full w-full px-28 space-x-10">
            <div class = "bg-carvr-footer w-1/4 h-1/2 shadow-2xl">
              <div class = "h-1/2 p-6">
-               <img src="../assets/GBMPhoto.png" alt="whatwedo1" class = "object-fill h-full w-full">
+               <img src="../assets/linktree.png" alt="whatwedo1" class = "object-center h-full w-full">
              </div>
              <div class = "h-1/2 px-6 space-y-2">
-               <h4>Linktree</h4>
+               <h2>Linktree</h2>
                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                <button class = "blueGradient h-1/4 w-40 shadow-2xl">
                  LEARN MORE
@@ -88,10 +88,10 @@
            </div>
            <div class = "bg-carvr-footer w-1/4 h-1/2 shadow-2xl">
              <div class = "h-1/2 p-6">
-               <img src="../assets/ICXR.png" alt="whatwedo2" class = "object-fill h-full w-full">
+               <img src="../assets/ICXR.png" alt="whatwedo2" class = "object-center h-full w-full">
              </div>
              <div class = "h-1/2 px-6 space-y-2">
-               <h4>Member of ICXR</h4>
+               <h2>Member of ICXR</h2>
                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                <button class = "blueGradient h-1/4 w-40 shadow-2xl">
                LEARN MORE
@@ -100,10 +100,10 @@
            </div>
            <div class = "bg-carvr-footer w-1/4 h-1/2 shadow-2xl">
              <div class = "h-1/2 p-6">
-               <img src="../assets/GBMPhoto.png" alt="whatwedo3" class = "object-fill h-full w-full">
+               <img src="../assets/GBMPhoto.png" alt="whatwedo3" class = "object-center h-full w-full">
              </div>
              <div class = "h-1/2 px-6 space-y-2">
-               <h4>Our Projects</h4>
+               <h2>Our Projects</h2>
                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                <button class = "blueGradient h-1/4 w-40 shadow-2xl">
                  LEARN MORE
@@ -120,8 +120,7 @@
 
    </div>
   </section>
-
-  <carvr-footer class="invisible "></carvr-footer>
+  <carvr-footer class=" "></carvr-footer>
 
 </template>
 

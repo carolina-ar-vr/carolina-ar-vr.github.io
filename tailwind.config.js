@@ -13,6 +13,11 @@ export default {
         'purple-fade': '#554688',
         'pink-fade': '#EA3381',
       },
+      screens: {
+        'tablet': '640px',
+        'laptop': '1024px',
+        'desktop': '1280px',
+      },
     },
   },
   plugins: [],
