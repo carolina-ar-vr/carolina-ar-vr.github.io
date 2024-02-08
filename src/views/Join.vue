@@ -1,6 +1,6 @@
 <template>
   <h1>
-    CONTACTS
+    JOIN
   </h1>
 </template>
 <script lang="ts">
@@ -8,7 +8,7 @@
 export default {
   data: () => {
     return {
-      name: 'Contact'
+      name: 'Join'
     };
   },
 }

@@ -14,19 +14,14 @@
         About
         </router-link>
       </li>
-      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400 ">
-        <router-link :class=" {active: isActive('/events')}" to="/events" class="nav_text">
-        Events
-        </router-link>
-      </li>
       <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
         <router-link :class=" {active: isActive('/discover')}" to="/discover" class="nav_text">
         Discover
         </router-link>
       </li>
       <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link :class=" {active: isActive('/contact')}" to="/contact"  class="nav_text">
-        Contact
+        <router-link :class=" {active: isActive('/join')}" to="/join"  class="nav_text">
+        Join
       </router-link>
       </li>
       <li class = "flex-shrink-0 ml-auto p-2">

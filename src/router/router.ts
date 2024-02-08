@@ -1,9 +1,8 @@
 import {createRouter, createWebHistory} from "vue-router";
 import About from '../views/About.vue';
 import Home from '../views/Home.vue';
-import Contact from '../views/Contact.vue';
+import Join from '../views/Join.vue';
 import Discover from '../views/Discover.vue';
-import Events from '../views/Events.vue';
 
 
 // The router object to hold the router history and the different routes
@@ -21,19 +20,15 @@ const router = createRouter({
             component: About
         },
         {
-            path: '/contact',
-            name: 'Contact',
-            component: Contact
+            path: '/join',
+            name: 'Join',
+            component: Join
         },
         {
             path: '/discover',
             name: 'Discover',
             component: Discover
         },
-        {
-            path: '/events',
-            name: 'Events',
-            component: Events
-        }    ],
+    ],
 });
 export default router;
