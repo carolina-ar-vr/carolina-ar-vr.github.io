@@ -28,9 +28,18 @@ a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
 }
 a:hover {
-  color: #535bf2;
+  color: #343166;
+}
+
+/* 768 is md for tailwind */
+@media (max-width: 768px) {
+  a {
+    transition-duration: 0ms;
+  }
 }
 
 body {

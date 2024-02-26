@@ -5,7 +5,7 @@
   <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>
 
   <!-- carolina ar/vr-->
-  <section class = "relative flex-col flex align-middle">
+  <section class = "relative flex-col align-middle">
     <div class = "w-screen h-screen inset-0 flex">
       <div class = "w-1/2 flex items-center">
         <div class = "pl-14 items-center justify-center flex-col relative pb-28">
@@ -19,9 +19,11 @@
             Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
             exploration and development of extended reality technologies!
           </h3>
-          <button class = "purpleGradient h-16 w-72">
-            LEARN MORE
-          </button>
+          <a href = "https://linktr.ee/carvr">
+            <button class = "purpleGradient h-16 w-64">
+              JOIN
+            </button>
+          </a>
         </div>
       </div>
       <div class = "w-1/2 flex items-center pb-28">

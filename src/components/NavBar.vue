@@ -4,29 +4,27 @@
       <router-link to= "/" class = "pr-10">
         <img src = '/src/assets/CARVR2D.png' alt = "carvr logo" class="w-24 h-20">
       </router-link>
-      <li class="cursor-pointer mr-12 duration-900 hover:text-black-400">
-        <router-link :class=" {active: isActive('/')}" to="/" class="nav_text">
+      <li class="invisible w-0 md:visible md:w-fit cursor-pointer mr-12">
+        <router-link to="/" :class="{active: isActive('/')}" class="nav_text">
           Home
         </router-link>
       </li>
-      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link :class=" {active: isActive('/about')}" to="/about" class="nav_text">
+      <li class="invisible w-0 md:visible md:w-fit cursor-pointer mr-12">
+        <router-link to="/about" :class=" {active: isActive('/about') }" class="nav_text">
         About
         </router-link>
       </li>
-      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link :class=" {active: isActive('/discover')}" to="/discover" class="nav_text">
+      <li class="invisible w-0 md:visible md:w-fit cursor-pointer mr-12">
+        <router-link to="/discover" :class=" {active: isActive('/discover')}" class="nav_text">
         Discover
         </router-link>
       </li>
-      <li class="cursor-pointer mr-12 duration-300 hover:text-black-400">
-        <router-link :class=" {active: isActive('/join')}" to="/join"  class="nav_text">
-        Join
-      </router-link>
+      <li class="invisible w-0 md:visible md:w-fit cursor-pointer mr-12">
+        <a href="https://linktr.ee/carvr" class = "nav_text">Join</a>
       </li>
-      <li class = "flex-shrink-0 ml-auto p-2">
+      <li class = "flex-shrink-0 ml-auto p-2 md:hidden">
         <router-link to="/">
-          <img src='/src/assets/search.svg' alt="search" class="w-6 h-6"/>
+          <img src='/src/assets/mobilemenu.svg' alt="search" class=""/>
         </router-link>
       </li>
     </ul>
@@ -37,6 +35,7 @@
 export default {
   methods: {
     isActive(routePath: any) {
+      window.scrollTo(0,0);
       return this.$route.path === routePath;
     }},
   data: () => {
@@ -48,7 +47,4 @@ export default {
 </script>
 
 <style scoped>
-.active {
-
-}
 </style>
