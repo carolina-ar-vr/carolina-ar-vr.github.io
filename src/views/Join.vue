@@ -1,7 +1,7 @@
 <template>
-  <h1>
+  <div class = "title">
     JOIN
-  </h1>
+  </div>
 </template>
 <script lang="ts">
 

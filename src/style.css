@@ -50,14 +50,14 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+.title {
   font-family: Chakra Petch;
   font-size: 5.625rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-h2 {
+.subtitle {
   color: #FFF;
   font-family: Inter, serif;
   font-size: 1.5rem;
@@ -65,22 +65,13 @@ h2 {
   font-weight: 600;
   line-height: normal;
 }
-h3 {
+.text {
   color: #FFF;
   font-family: Inter, serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-h4 {
-  color: #FFF;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  opacity: 0.6;
 }
 
 button {
