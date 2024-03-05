@@ -1,6 +1,6 @@
 <template>
   <div class = "pinkFade absolute -z-10">
-    <div class = "">CARVR</div>
+    <div class = "title">CARVR</div>
   </div>
 </template>
 
