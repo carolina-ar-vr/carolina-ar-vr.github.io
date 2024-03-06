@@ -13,12 +13,11 @@ export default {
         'purple-fade': '#554688',
         'pink-fade': '#EA3381',
       },
-      screens: {
-        'tablet': '640px',
-        'laptop': '1024px',
-        'desktop': '1280px',
-      },
     },
+    screens: {
+      'lgl': '1440px',
+      // =>  // => @media (min-width: 1440px) { ... } Large Laptop Size
+    }
   },
   plugins: [],
 

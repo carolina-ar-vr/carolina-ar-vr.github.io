@@ -21,6 +21,8 @@
 
   border-radius: 6px;
   background: #7EBDE5;
+
+  overflow-x: hidden;
   /*box-shadow: 0p x 12px 54px 0px rgba(78, 69, 62, 0.27);*/
 }
 
@@ -33,6 +35,9 @@ a {
 }
 a:hover {
   color: #343166;
+}
+a:hover.footer{
+  color: inherit;
 }
 
 /* 768 is md for tailwind */
@@ -52,11 +57,11 @@ body {
 
 .title {
   font-family: Chakra Petch;
-  font-size: 5.625rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+
 .subtitle {
   color: #FFF;
   font-family: Inter, serif;
@@ -95,6 +100,7 @@ button {
   border-radius: 6px 6px 0px 0px;
   background: #99c9ea;
 }
+
 .purpleFade {
   width: 447px;
   height: 540px;
