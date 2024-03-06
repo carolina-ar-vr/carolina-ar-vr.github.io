@@ -1,21 +1,21 @@
 <template>
 
-  <pink-fade class = "left-0 p-20"></pink-fade>
-  <purple-fade class = "right-0 top-2 p-20"></purple-fade>
-  <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>
+<!--  <pink-fade class = "left-0 p-20"></pink-fade>-->
+<!--  <purple-fade class = "right-0 top-2 p-20"></purple-fade>-->
+<!--  <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>-->
 
   <!-- carolina ar/vr-->
-  <section class = "relative flex-col align-middle overflow-x-hidden">
-    <div class = "w-screen h-screen inset-0 flex">
+  <section class = "relative flex-col align-middle border">
+    <div class = "w-full h-screen inset-0 flex">
       <div class = "w-full flex items-center md:w-1/2">
-        <div class = "md:pl-14 justify-center flex-col relative pb-28">
+        <div class = "justify-center flex-col relative pb-28 md:pl-14">
           <div class = "text-7xl absolute title text-center left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0">
               CAROLINA <br> AR/VR
           </div>
           <div class = "text-7xl absolute title text-center pl-3 glow-text left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:pl-1.5 md:text-left">
               CAROLINA <br> AR/VR
           </div>
-          <div class = "pt-60 pb-28 text text-center md:text-left">
+          <div class = "pt-60 pb-28 px-10 text text-center md:text-left">
             Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
             exploration and development of extended reality technologies!
           </div>
@@ -36,8 +36,8 @@
 
   <!-- what is ar/vr -->
   <section class = "relative ">
-   <pink-fade class = "bottom-0 left-0 p-20"></pink-fade>
-   <div class = "w-screen h-full flex flex-col pb-24 md:flex-row">
+<!--   <pink-fade class = "bottom-0 left-0 p-20"></pink-fade>-->
+   <div class = "w-full h-full flex flex-col pb-24 md:flex-row">
      <div class = "w-full md:w-1/2">
        <div class = "justify-center p-12">
          <img src="../assets/GBMPhoto.png" alt="gbmphoto" class = "rounded-2xl shadow-2xl">
@@ -51,7 +51,7 @@
          <div class = "absolute text-7xl title pl-3 glow-text left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0 md:pl-1.5">
            WHAT IS AR/VR
          </div>
-         <purple-fade class = "top-0 right-0"></purple-fade>
+<!--         <purple-fade class = "top-0 right-0"></purple-fade>-->
          <div class = "pt-48 text lg: pt-30">
            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -66,9 +66,9 @@
 
   <!-- what we do section -->
   <section class = "relative ">
-   <div class = "w-screen flex flex-col md:flex-row md:h-screen">
+   <div class = "w-full flex flex-col md:flex-row md:h-screen">
      <div class = "flex flex-col">
-       <div class = "relative h-1/4 w-screen flex items-center justify-center">
+       <div class = "relative h-1/4 w-full flex items-center justify-center">
            <div class = "absolute text-7xl title left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0">
                WHAT WE DO
            </div>
@@ -125,9 +125,9 @@
          </div>
        </div>
      </div>
-     <pink-fade class = "top-1/3 right-1/2"></pink-fade>
-     <purple-fade class = "top-0 right-0"></purple-fade>
-     <purple-fade class = "bottom-0 right-1/2"></purple-fade>
+<!--     <pink-fade class = "top-1/3 right-1/2"></pink-fade>-->
+<!--     <purple-fade class = "top-0 right-0"></purple-fade>-->
+<!--     <purple-fade class = "bottom-0 right-1/2"></purple-fade>-->
    </div>
   </section>
 
