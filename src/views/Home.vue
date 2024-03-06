@@ -5,14 +5,14 @@
   <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>
 
   <!-- carolina ar/vr-->
-  <section class = "relative flex-col align-middle">
+  <section class = "relative flex-col align-middle overflow-x-hidden">
     <div class = "w-screen h-screen inset-0 flex">
       <div class = "w-full flex items-center md:w-1/2">
         <div class = "md:pl-14 justify-center flex-col relative pb-28">
-          <div class = "text-8xl absolute title text-center left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0">
+          <div class = "text-7xl absolute title text-center left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0">
               CAROLINA <br> AR/VR
           </div>
-          <div class = "text-8xl absolute title text-center pl-3 glow-text left-1/2 -translate-x-1/2 text-current md:left-auto md:translate-x-0 md:pl-1.5 md:text-left">
+          <div class = "text-7xl absolute title text-center pl-3 glow-text left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:pl-1.5 md:text-left">
               CAROLINA <br> AR/VR
           </div>
           <div class = "pt-60 pb-28 text text-center md:text-left">
@@ -69,59 +69,59 @@
    <div class = "w-screen flex flex-col md:flex-row md:h-screen">
      <div class = "flex flex-col">
        <div class = "relative h-1/4 w-screen flex items-center justify-center">
-         <div class = "absolute title">
-           WHAT WE DO
-         </div>
-         <div class = "absolute title pl-1.5 sm:pl-3 glow-text">
-           WHAT WE DO
-         </div>
+           <div class = "absolute text-7xl title left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0">
+               WHAT WE DO
+           </div>
+           <div class = "absolute text-7xl title pl-1.5 glow-text left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0 md:pl-3">
+               WHAT WE DO
+           </div>
        </div>
-       <div class= "w-full flex-1  overflow-hidden">
-         <div class = "flex justify-center flex-col p-16 w-full mx-auto space-x-10 md:flex-row">
-
-           <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
-             <div class = "h-1/2 p-6 justify-center items-center flex">
-               <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+       <div class= "w-full flex-1 overflow-hidden">
+         <div class = "flex flex-col justify-center items-center">
+           <div class = "flex flex-col justify-center items-center mt-10 p-16 w-full space-y-12 md:mt-0 md:space-y-0 md:space-x-10 md:flex-row">
+             <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
+                 <div class = "h-1/2 p-6 justify-center items-center flex">
+                     <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+                 </div>
+                 <div class = "h-full px-6 pb-10 space-y-2 ">
+                     <div class = "subtitle">
+                         Linktree
+                     </div>
+                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                     <button class = "blueGradient h-10 w-40 shadow-2xl">
+                         LEARN MORE
+                     </button>
+                 </div>
              </div>
-             <div class = "h-full px-6 pb-10 space-y-2 ">
-               <div class = "subtitle">
-                 Linktree
-               </div>
-               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-               <button class = "blueGradient h-10 w-40 shadow-2xl">
-                 LEARN MORE
-               </button>
+             <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
+                 <div class = "h-1/2 p-6 justify-center items-center flex">
+                     <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+                 </div>
+                 <div class = "h-full px-6 pb-10 space-y-2 ">
+                     <div class = "subtitle">
+                         Linktree
+                     </div>
+                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                     <button class = "blueGradient h-10 w-40 shadow-2xl">
+                         LEARN MORE
+                     </button>
+                 </div>
+             </div>
+             <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
+                 <div class = "h-1/2 p-6 justify-center items-center flex">
+                     <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+                 </div>
+                 <div class = "h-full px-6 pb-10 space-y-2 ">
+                     <div class = "subtitle">
+                         Linktree
+                     </div>
+                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                     <button class = "blueGradient h-10 w-40 shadow-2xl">
+                         LEARN MORE
+                     </button>
+                 </div>
              </div>
            </div>
-
-             <!--           <div class = "bg-carvr-footer w-1/4 h-full shadow-2xl">-->
-<!--             <div class = "h-1/2 p-6 justify-center items-center flex">-->
-<!--               <img src="../assets/ICXR.png" alt="whatwedo2" class = "object-cover h-[208px] w-[322px]">-->
-<!--             </div>-->
-<!--             <div class = "h-full px-6 pb-10 space-y-2">-->
-<!--               <div class = "subtitle">-->
-<!--                 Member of ICXR-->
-<!--               </div>-->
-<!--               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>-->
-<!--               <button class = "blueGradient h-10 w-40 shadow-2xl">-->
-<!--               LEARN MORE-->
-<!--               </button>-->
-<!--             </div>-->
-<!--           </div>-->
-<!--           <div class = "bg-carvr-footer w-auto w-max- h-full shadow-2xl">-->
-<!--             <div class = "h-1/2 p-6 justify-center items-center flex">-->
-<!--               <img src="../assets/GBMPhoto.png" alt="whatwedo3" class = "object-cover h-[208px] w-[322px]">-->
-<!--             </div>-->
-<!--             <div class = "h-full px-6 pb-10 space-y-2">-->
-<!--               <div class = "subtitle">-->
-<!--                 Our Projects-->
-<!--               </div>-->
-<!--               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>-->
-<!--               <button class = "blueGradient h-10 w-40 shadow-2xl">-->
-<!--                 LEARN MORE-->
-<!--               </button>-->
-<!--             </div>-->
-<!--           </div>-->
          </div>
        </div>
      </div>
