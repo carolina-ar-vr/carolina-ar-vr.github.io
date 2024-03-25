@@ -1,5 +1,5 @@
 <template>
-  <div class = "pinkFade absolute -z-10 invisible md:visible">
+  <div class = "pinkFade absolute -z-10 overflow-auto hidden md:block">
     <div class = "title">CARVR</div>
   </div>
 </template>

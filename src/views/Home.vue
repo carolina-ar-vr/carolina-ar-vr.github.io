@@ -1,21 +1,22 @@
 <template>
-
-<!--  <pink-fade class = "left-0 p-20"></pink-fade>-->
-<!--  <purple-fade class = "right-0 top-2 p-20"></purple-fade>-->
-<!--  <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>-->
-
   <!-- carolina ar/vr-->
-  <section class = "relative flex-col align-middle border">
-    <div class = "w-full h-screen inset-0 flex">
+  <pink-fade class = "left-0 p-20"></pink-fade>
+  <purple-fade class = "right-0 top-2 p-20"></purple-fade>
+  <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>
+
+  <section class = "relative flex-col align-middle">
+    <div class = "w-full h-screen flex">
       <div class = "w-full flex items-center md:w-1/2">
-        <div class = "justify-center flex-col relative pb-28 md:pl-14">
-          <div class = "text-7xl absolute title text-center left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0">
-              CAROLINA <br> AR/VR
+        <div class = "justify-center flex-col relative pb-14 md:pl-14">
+          <div class="grid place-items-center">
+            <div class="relative text-7xl title text-center md:text-8xl md:text-left md:left-auto">
+              CAROLINA AR/VR
+            </div>
+            <div class="glow-text absolute text-7xl title text-center md:text-8xl pl-3 md:pl-1.5  md:text-left md:left-auto">
+              CAROLINA AR/VR
+            </div>
           </div>
-          <div class = "text-7xl absolute title text-center pl-3 glow-text left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:pl-1.5 md:text-left">
-              CAROLINA <br> AR/VR
-          </div>
-          <div class = "pt-60 pb-28 px-10 text text-center md:text-left">
+          <div class = "pt-10 pb-28 px-10 text text-center md:text-left md:px-0">
             Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
             exploration and development of extended reality technologies!
           </div>
@@ -35,24 +36,26 @@
   </section>
 
   <!-- what is ar/vr -->
-  <section class = "relative ">
-<!--   <pink-fade class = "bottom-0 left-0 p-20"></pink-fade>-->
-   <div class = "w-full h-full flex flex-col pb-24 md:flex-row">
+  <section class = "relative">
+   <pink-fade class = "bottom-0 left-0 p-20"></pink-fade>
+   <div class = "w-full h-full flex flex-col pb-16 md:flex-row">
      <div class = "w-full md:w-1/2">
-       <div class = "justify-center p-12">
+       <div class = "justify-center px-12">
          <img src="../assets/GBMPhoto.png" alt="gbmphoto" class = "rounded-2xl shadow-2xl">
        </div>
      </div>
-     <div class = "w-full p-6 flex md:w-1/2 md:pt-12">
-       <div class = "flex-col text-center md:text-left">
-         <div class = "absolute text-7xl title left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0">
-           WHAT IS AR/VR
+     <div class = "w-full flex md:w-1/2 md:pt-0">
+       <div class = "flex-col md:text-left">
+         <div class="grid place-items-center text-center">
+           <div class="text-7xl title md:text-8xl relative">
+             WHAT IS XR
+           </div>
+           <div class="text-7xl title md:text-8xl glow-text absolute pl-3 md:pl-1.5">
+             WHAT IS XR
+           </div>
          </div>
-         <div class = "absolute text-7xl title pl-3 glow-text left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0 md:pl-1.5">
-           WHAT IS AR/VR
-         </div>
-<!--         <purple-fade class = "top-0 right-0"></purple-fade>-->
-         <div class = "pt-48 text lg: pt-30">
+         <purple-fade class = "top-0 right-0"></purple-fade>
+         <div class = "px-6 pt-48 text md:pt-30 md:px-0 md:pt-32">
            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -67,14 +70,14 @@
   <!-- what we do section -->
   <section class = "relative ">
    <div class = "w-full flex flex-col md:flex-row md:h-screen">
-     <div class = "flex flex-col">
-       <div class = "relative h-1/4 w-full flex items-center justify-center">
-           <div class = "absolute text-7xl title left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0">
-               WHAT WE DO
-           </div>
-           <div class = "absolute text-7xl title pl-1.5 glow-text left-1/2 -translate-x-1/2 md:text-8xl md:text-left md:left-auto md:translate-x-0 md:pl-3">
-               WHAT WE DO
-           </div>
+     <div class = "w-full flex flex-col">
+       <div class="grid place-items-center text-center">
+         <div class="text-7xl title md:text-8xl relative">
+           WHAT WE DO
+         </div>
+         <div class="text-7xl title md:text-8xl glow-text absolute inset-0 pl-3 md:pl-1.5">
+           WHAT WE DO
+         </div>
        </div>
        <div class= "w-full flex-1 overflow-hidden">
          <div class = "flex flex-col justify-center items-center">
@@ -125,9 +128,9 @@
          </div>
        </div>
      </div>
-<!--     <pink-fade class = "top-1/3 right-1/2"></pink-fade>-->
-<!--     <purple-fade class = "top-0 right-0"></purple-fade>-->
-<!--     <purple-fade class = "bottom-0 right-1/2"></purple-fade>-->
+     <pink-fade class = "top-1/3 right-1/2"></pink-fade>
+     <purple-fade class = "top-0 right-0"></purple-fade>
+     <purple-fade class = "bottom-0 right-1/2"></purple-fade>
    </div>
   </section>
 
