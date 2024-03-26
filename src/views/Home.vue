@@ -8,13 +8,10 @@
     <div class = "w-full h-screen flex">
       <div class = "w-full flex items-center md:w-1/2">
         <div class = "justify-center flex-col relative pb-14 md:pl-14">
-          <div class="grid place-items-center">
-            <div class="relative text-7xl title text-center md:text-8xl md:text-left md:left-auto">
-              CAROLINA AR/VR
-            </div>
-            <div class="glow-text absolute text-7xl title text-center md:text-8xl pl-3 md:pl-1.5  md:text-left md:left-auto">
-              CAROLINA AR/VR
-            </div>
+          <div class="grid place-items-center md:place-items-start">
+            <h1 class="glitch glitch-title title font-extrabold text-center md:text-left md:left-auto md:translate-x-0" data-text="CAROLINA">CAROLINA</h1>
+            <br>
+            <h1 class="glitch glitch-title title font-extrabold text-center md:text-left md:left-auto md:translate-x-0" data-text="AR/VR">AR/VR</h1>
           </div>
           <div class = "pt-10 pb-28 px-10 text text-center md:text-left md:px-0">
             Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
@@ -47,20 +44,14 @@
      <div class = "w-full flex md:w-1/2 md:pt-0">
        <div class = "flex-col md:text-left">
          <div class="grid place-items-center text-center">
-           <div class="text-7xl title md:text-8xl relative">
-             WHAT IS XR
-           </div>
-           <div class="text-7xl title md:text-8xl glow-text absolute pl-3 md:pl-1.5">
-             WHAT IS XR
-           </div>
+           <h1 class="glitch glitch-subtitle title text-center md:glitch-title md:text-left md:left-auto md:translate-x-0" data-text="WHAT IS XR">WHAT IS XR</h1>
          </div>
          <purple-fade class = "top-0 right-0"></purple-fade>
-         <div class = "px-6 pt-48 text md:pt-30 md:px-0 md:pt-32">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-           velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-           proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+         <div class = "px-6 pt-6 text md:px-0 md:pt-12">
+          XR or Extended Reality is an umbrella term encapsulating any technology that provides immersion into experiences through any sensory domain.
+          We can further categorize XR into AR, MR, VR. AR being Augmented Reality where we augment what's already there.
+          MR for Mixed Reality having real-world interactions with virtual augmentation. VR for Virtual Reality where there is a total immersion in a virtual space.
+          Our different senses correlate to the different XR sensory domains!
          </div>
        </div>
      </div>
@@ -72,12 +63,7 @@
    <div class = "w-full flex flex-col md:flex-row md:h-screen">
      <div class = "w-full flex flex-col">
        <div class="grid place-items-center text-center">
-         <div class="text-7xl title md:text-8xl relative">
-           WHAT WE DO
-         </div>
-         <div class="text-7xl title md:text-8xl glow-text absolute inset-0 pl-3 md:pl-1.5">
-           WHAT WE DO
-         </div>
+         <h1 class="glitch glitch-subtitle title text-center md:glitch-title md:text-left md:left-auto md:translate-x-0" data-text="WHAT WE DO">WHAT WE DO</h1>
        </div>
        <div class= "w-full flex-1 overflow-hidden">
          <div class = "flex flex-col justify-center items-center">
