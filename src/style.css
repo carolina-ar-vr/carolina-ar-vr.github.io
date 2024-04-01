@@ -135,12 +135,6 @@ button {
   letter-spacing: 0.1em;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
-.glitch-title {
-  font-size: 6em;
-}
-.glitch-subtitle {
-  font-size: 5em;
-}
 .glitch::before {
   content: attr(data-text);
   position: absolute;

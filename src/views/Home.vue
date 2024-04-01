@@ -9,13 +9,12 @@
       <div class = "w-full flex items-center md:w-1/2">
         <div class = "justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
-            <h1 class="glitch glitch-title title font-extrabold text-center md:text-left md:left-auto md:translate-x-0" data-text="CAROLINA">CAROLINA</h1>
+            <h1 class="glitch text-6xl title text-center md:text-7xl md:text-left md:left-auto md:translate-x-0" data-text="CAROLINA">CAROLINA</h1>
             <br>
-            <h1 class="glitch glitch-title title font-extrabold text-center md:text-left md:left-auto md:translate-x-0" data-text="AR/VR">AR/VR</h1>
+            <h1 class="glitch text-6xl title text-center md:text-7xl md:text-left md:left-auto md:translate-x-0" data-text="AR/VR">AR/VR</h1>
           </div>
-          <div class = "pt-10 pb-28 px-10 text text-center md:text-left md:px-0">
-            Carolina AR/VR (aka CARVR) is a student organization at UNC-Chapel Hill that promotes student
-            exploration and development of extended reality technologies!
+          <div class = "pt-10 pb-14 px-10 text text-center md:text-left md:px-0">
+            Carolina AR/VR (aka CARVR) is UNC-Chapel Hill’s extended reality student organization!
           </div>
           <div class="flex justify-center md:justify-start">
             <a href="https://linktr.ee/carvr">
@@ -43,15 +42,14 @@
      </div>
      <div class = "w-full flex md:w-1/2 md:pt-0">
        <div class = "flex-col md:text-left">
-         <div class="grid place-items-center text-center">
-           <h1 class="glitch glitch-subtitle title text-center md:glitch-title md:text-left md:left-auto md:translate-x-0" data-text="WHAT IS XR">WHAT IS XR</h1>
+         <div class="grid place-items-center text-center pt-10 md:pt-0">
+           <h1 class="glitch text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0" data-text="WHAT IS XR">WHAT IS XR</h1>
          </div>
          <purple-fade class = "top-0 right-0"></purple-fade>
-         <div class = "px-6 pt-6 text md:px-0 md:pt-12">
-          XR or Extended Reality is an umbrella term encapsulating any technology that provides immersion into experiences through any sensory domain.
-          We can further categorize XR into AR, MR, VR. AR being Augmented Reality where we augment what's already there.
-          MR for Mixed Reality having real-world interactions with virtual augmentation. VR for Virtual Reality where there is a total immersion in a virtual space.
-          Our different senses correlate to the different XR sensory domains!
+         <div class = "px-6 pt-6 text text-center md:text-left md:px-0 md:pt-12">
+           Extended Reality (XR) is an umbrella term encapsulating any technology that provides immersive experiences through
+           any sensory domain. XR technology is constantly expanding, and immersion can be achieved through a variety of interfaces
+           (e.g. head-mounted displays, olfactory atomizers, haptic wearables).
          </div>
        </div>
      </div>
@@ -60,54 +58,65 @@
 
   <!-- what we do section -->
   <section class = "relative ">
-   <div class = "w-full flex flex-col md:flex-row md:h-screen">
+   <div class = "w-full flex flex-col md:flex-row md:h-full md:pb-20">
      <div class = "w-full flex flex-col">
        <div class="grid place-items-center text-center">
-         <h1 class="glitch glitch-subtitle title text-center md:glitch-title md:text-left md:left-auto md:translate-x-0" data-text="WHAT WE DO">WHAT WE DO</h1>
+         <h1 class="glitch text-5xl mt-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0" data-text="WHAT WE DO">WHAT WE DO</h1>
        </div>
        <div class= "w-full flex-1 overflow-hidden">
          <div class = "flex flex-col justify-center items-center">
-           <div class = "flex flex-col justify-center items-center mt-10 p-16 w-full space-y-12 md:mt-0 md:space-y-0 md:space-x-10 md:flex-row">
+           <div class = "flex flex-col justify-center items-center px-16 py-6 w-full space-y-6 lg:mt-0 lg:space-y-0 lg:space-x-10 lg:flex-row">
              <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
                  <div class = "h-1/2 p-6 justify-center items-center flex">
-                     <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+                     <img src="../assets/CARVR-Explore.jpeg" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
                  </div>
                  <div class = "h-full px-6 pb-10 space-y-2 ">
                      <div class = "subtitle">
-                         Linktree
+                         Explore
                      </div>
-                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class = "blueGradient h-10 w-40 shadow-2xl">
+                     <p class = "h-28 text-md"> We host social events where you can try out various XR hardware while meeting other
+                       passionate students!</p>
+                     <a href="https://heellife.unc.edu/organization/carvr">
+                       <button class = "blueGradient h-10 w-40 shadow-2xl">
                          LEARN MORE
-                     </button>
+                       </button>
+                     </a>
+                 </div>
+             </div>
+             <div class = "bg-carvr-footer w-full h-full shadow-2xl">
+                 <div class = "h-1/2 p-6 justify-center items-center flex">
+                     <img src="../assets/CARVR-Learn.jpeg" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+                 </div>
+                 <div class = "px-6 pb-10 space-y-2 ">
+                     <div class = "subtitle">
+                         Learn
+                     </div>
+                     <p class = "h-28 text-md"> We host workshops, panels, research showcases, and other relevant events each semester for students to learn more about XR.</p>
+                     <a href="https://discord.gg/cYseCtevW9">
+                       <button class = "blueGradient h-10 w-40 shadow-2xl">
+                         LEARN MORE
+                       </button>
+                     </a>
                  </div>
              </div>
              <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
                  <div class = "h-1/2 p-6 justify-center items-center flex">
-                     <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
+                     <img src="../assets/CARVR-Develop.jpg" alt="whatwedo1" class = "object-cover object-top h-[208px] w-[322px]">
                  </div>
                  <div class = "h-full px-6 pb-10 space-y-2 ">
                      <div class = "subtitle">
-                         Linktree
+                         Develop
                      </div>
-                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class = "blueGradient h-10 w-40 shadow-2xl">
+                     <p class = "h-24 text-md"> Our development team collaborates to create amazing XR experiences! </p>
+
+
+                   <!-- include the link to aboutus after it is implemented-->
+
+                     <a href="/">
+                       <button class = "blueGradient h-10 w-40 shadow-2xl">
                          LEARN MORE
-                     </button>
-                 </div>
-             </div>
-             <div class = "bg-carvr-footer w-full h-full shadow-2xl ">
-                 <div class = "h-1/2 p-6 justify-center items-center flex">
-                     <img src="../assets/linktree.png" alt="whatwedo1" class = "object-cover h-[208px] w-[322px]">
-                 </div>
-                 <div class = "h-full px-6 pb-10 space-y-2 ">
-                     <div class = "subtitle">
-                         Linktree
-                     </div>
-                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class = "blueGradient h-10 w-40 shadow-2xl">
-                         LEARN MORE
-                     </button>
+                       </button>
+                     </a>
                  </div>
              </div>
            </div>
