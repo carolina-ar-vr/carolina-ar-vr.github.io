@@ -4,8 +4,8 @@
   <purple-fade class = "right-0 top-2 p-20"></purple-fade>
   <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>
 
-  <section class = "relative flex-col align-middle">
-    <div class = "w-full h-screen flex">
+  <section class = "relative align-middle">
+    <div class = "w-full h-screen flex flex-row">
       <div class = "w-full flex items-center md:w-1/2">
         <div class = "justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
@@ -25,9 +25,9 @@
           </div>
         </div>
       </div>
-      <div class = "hidden flex items-center lg:w-1/2 lg:block">
-        <img src="../assets/CARVR2D.png" alt="carvrlogo">
-      </div>
+        <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:block">
+            <img src="../assets/CARVR2D.png" alt="carvrlogo">
+        </div>
     </div>
   </section>
 
@@ -36,17 +36,17 @@
    <pink-fade class = "bottom-0 left-0 p-20"></pink-fade>
    <div class = "w-full h-full flex flex-col pb-16 md:flex-row">
      <div class = "w-full md:w-1/2">
-       <div class = "justify-center px-12">
-         <img src="../assets/GBMPhoto.png" alt="gbmphoto" class = "rounded-2xl shadow-2xl">
+       <div class = "justify-center px-12 flex">
+         <img src="../assets/GBMPhoto.png" alt="gbmphoto" class = "rounded-2xl shadow-2xl 2xl:max-w-3xl">
        </div>
      </div>
      <div class = "w-full flex md:w-1/2 md:pt-0">
-       <div class = "flex-col md:text-left">
+       <div class = "flex-col md:text-left 2xl:justify-center flex">
          <div class="grid place-items-center text-center pt-10 md:pt-0">
            <h1 class="glitch text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0" data-text="WHAT IS XR">WHAT IS XR</h1>
          </div>
          <purple-fade class = "top-0 right-0"></purple-fade>
-         <div class = "px-6 pt-6 text text-center md:text-left md:px-0 md:pt-12">
+         <div class = "px-6 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">
            Extended Reality (XR) is an umbrella term encapsulating any technology that provides immersive experiences through
            any sensory domain. XR technology is constantly expanding, and immersion can be achieved through a variety of interfaces
            (e.g. head-mounted displays, olfactory atomizers, haptic wearables).
@@ -74,7 +74,7 @@
                      <div class = "subtitle">
                          Explore
                      </div>
-                     <p class = "h-28 text-md"> We host social events where you can try out various XR hardware while meeting other
+                     <p class = "h-32 text-md xl:h-24 2xl:h-20"> We host social events where you can try out various XR hardware while meeting other
                        passionate students!</p>
                      <a href="https://heellife.unc.edu/organization/carvr">
                        <button class = "blueGradient h-10 w-40 shadow-2xl">
@@ -91,7 +91,7 @@
                      <div class = "subtitle">
                          Learn
                      </div>
-                     <p class = "h-28 text-md"> We host workshops, panels, research showcases, and other relevant events each semester for students to learn more about XR.</p>
+                     <p class = "h-32 text-md xl:h-24 2xl:h-20"> We host workshops, panels, research showcases, and other relevant events each semester for students to learn more about XR.</p>
                      <a href="https://discord.gg/cYseCtevW9">
                        <button class = "blueGradient h-10 w-40 shadow-2xl">
                          LEARN MORE
@@ -107,7 +107,7 @@
                      <div class = "subtitle">
                          Develop
                      </div>
-                     <p class = "h-24 text-md"> Our development team collaborates to create amazing XR experiences! </p>
+                     <p class = "h-32 text-md xl:h-24 2xl:h-20"> Our development team collaborates to create amazing XR experiences! </p>
 
 
                    <!-- include the link to aboutus after it is implemented-->
