@@ -11,11 +11,11 @@
               Home
             </router-link>
           </li>
-          <!--      <li class="hidden md:block cursor-pointer mr-12">-->
-          <!--        <router-link to="/about" :class=" {active: isActive('/about') }" class="nav_text">-->
-          <!--        About-->
-          <!--        </router-link>-->
-          <!--      </li>-->
+<!--                <li class="hidden md:block cursor-pointer mr-12">-->
+<!--                  <router-link to="/about" :class=" {active: isActive('/about') }" class="nav_text">-->
+<!--                  About-->
+<!--                  </router-link>-->
+<!--                </li>-->
           <!--      <li class="hidden md:block cursor-pointer mr-12">-->
           <!--        <router-link to="/discover" :class=" {active: isActive('/discover')}" class="nav_text">-->
           <!--        Discover-->
