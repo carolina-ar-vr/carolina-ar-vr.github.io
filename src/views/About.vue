@@ -24,7 +24,6 @@
           <div v-for="member in additionalTeam" :key="member.id" class="bg-white rounded-lg shadow-md p-6">
             <h3 class="text-xl font-semibold mb-2">{{ member.name }}</h3>
             <p>{{ member.position }}</p>
-            <p>{{ member.bio }}</p>
           </div>
         </div>
       </div>

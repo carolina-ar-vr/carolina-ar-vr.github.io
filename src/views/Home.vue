@@ -129,6 +129,20 @@
    </div>
   </section>
 
+  <section class = "relative">
+    <div class = "w-full">
+      <div class="grid place-items-center text-center">
+        <h1 class="glitch text-5xl mt-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0" data-text="EXECUTIVE BOARD">EXECUTIVE BOARD</h1>
+      </div>
+      <exec-board></exec-board>
+    </div>
+    <div class = "w-full pb-8">
+      <a href="https://www.icxr.org/" class ="w-full h-full flex items-center justify-center">
+        <img src="../assets/ICXR-Member-Transparent-White.png" class = "w-full sm:w-1/3 md:h-1/3">
+      </a>
+    </div>
+  </section>
+
   <carvr-footer></carvr-footer>
 
 </template>
@@ -137,9 +151,10 @@
 import PinkFade from '../components/pinkFade.vue';
 import PurpleFade from '../components/purpleFade.vue';
 import CarvrFooter from "../components/CarvrFooter.vue";
+import ExecBoard from "../components/ExecBoard.vue";
 
 export default {
-  components: {CarvrFooter, PurpleFade, PinkFade},
+  components: {ExecBoard, CarvrFooter, PurpleFade, PinkFade},
   data: () => {
     return {
       name: 'Home'

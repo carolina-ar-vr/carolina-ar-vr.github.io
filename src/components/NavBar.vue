@@ -4,7 +4,7 @@
       <router-link to="/" class="pr-10 w-fit">
         <img src='/src/assets/CARVR2D.png' alt="carvr logo" class="w-24 h-20">
       </router-link>
-      <div class="flex items-center  h-20"> <!-- New wrapper for the remaining navbar items -->
+      <div class="flex items-center h-20"> <!-- New wrapper for the remaining navbar items -->
         <ul class="flex">
           <li class="hidden md:block cursor-pointer mr-12">
             <router-link to="/" :class="{active: isActive('/')}" class="nav_text">
