@@ -132,7 +132,7 @@
   <section class = "relative">
     <div class = "w-full">
       <div class="grid place-items-center text-center">
-        <h1 class="glitch text-5xl mt-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0" data-text="EXECUTIVE BOARD">EXECUTIVE BOARD</h1>
+        <h1 class="glitch text-5xl mt-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0" data-text="ABOUT US">ABOUT US</h1>
       </div>
       <exec-board></exec-board>
     </div>
