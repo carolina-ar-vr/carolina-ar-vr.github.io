@@ -2,7 +2,7 @@
   <section class="p-1 h-full z-10 w-full items-center ">
     <div class="flex justify-between"> <!-- Adjusted to 'justify-start' to align items to the left -->
       <router-link to="/" class="pr-10 w-fit">
-        <img src='/src/assets/CARVR2D.png' alt="carvr logo" class="w-24 h-20">
+        <img src='../assets/CARVR2D.png' alt="carvr logo" class="w-24 h-20">
       </router-link>
       <div class="flex items-center h-20"> <!-- New wrapper for the remaining navbar items -->
         <ul class="flex">
