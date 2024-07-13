@@ -2,19 +2,13 @@
 
 <!--  <pink-fade class = "left-0 p-20"></pink-fade>-->
 <!--  <purple-fade class = "right-0 top-2 p-20"></purple-fade>-->
-<!--  <purple-fade class = "top-1/2 right-1/2 p-20"></purple-fade>-->
+<!--  <purple-fade czlass = "top-1/2 right-1/2 p-20"></purple-fade>-->
 
   <!-- carolina ar/vr-->
-  <section class = "relative flex-col align-middle border">
-    <div class = "w-full h-screen inset-0 flex bg-black">
+  <section class = "relative flex-col align-middle">
+    <div class = "w-full h-screen inset-0 flex">
       <div class = "w-full flex items-center md:w-1/2">
         <div class = "justify-center flex-col relative pb-28 md:pl-14">
-<!--          <div class = "text-7xl absolute title text-center left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0">-->
-<!--              CAROLINA <br> AR/VR-->
-<!--          </div>-->
-<!--          <div class = "text-7xl absolute title text-center pl-3 glow-text left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:pl-1.5 md:text-left">-->
-<!--              CAROLINA <br> AR/VR-->
-<!--          </div>-->
           <h1 class="glitch absolute title font-extrabold text-8xl leading-tight tracking-tight text-center pl-3 left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0" data-text="CAROLINA">CAROLINA</h1>
           <br>
           <h1 class="glitch absolute title font-extrabold text-8xl leading-tight tracking-tight text-center left-1/2 -translate-x-1/2 md:text-left md:left-auto md:translate-x-0" data-text="AR/VR">AR/VR</h1>
@@ -31,10 +25,6 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class = " flex items-center lg:w-1/2 lg:block">
-        <rams-head></rams-head>
-        
       </div>
     </div>
   </section>
@@ -137,15 +127,13 @@
   </section>
 
   <carvr-footer></carvr-footer>
-  <rams-head></rams-head>
-
 </template>
 
 <script lang="ts">
 import PinkFade from '../components/pinkFade.vue';
 import PurpleFade from '../components/purpleFade.vue';
 import CarvrFooter from "../components/CarvrFooter.vue";
-import ramsHead from '../components/rams-head.vue';
+import ramsHead from '../components/RamsHead.vue';
 
 export default {
   components: {CarvrFooter, PurpleFade, PinkFade, ramsHead},

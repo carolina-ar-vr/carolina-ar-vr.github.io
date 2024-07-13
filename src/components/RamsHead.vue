@@ -5,12 +5,11 @@
 
 <script lang="ts">
 import * as THREE from 'three';
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
 
 export default {
   data: () => {
     return {
-      name: 'rams-head',
+      name: 'RamsHead',
       camera: null as THREE.PerspectiveCamera | null,
       mouse: new THREE.Vector2(),
       windowHalfX: window.innerWidth / 2,
@@ -84,17 +83,17 @@ export default {
       const group = new THREE.Group(); // Create a group
       scene.add(group);
 
-      const loader = new STLLoader();
-      loader.load('src/assets/VRRam.stl', (geometry: THREE.BufferGeometry) => {
-        console.log("STL load Success");
-        const material = new THREE.MeshPhongMaterial({ color: 0x7BAFD4, specular: 0x111111, shininess: 500 });
-        const mesh = new THREE.Mesh(geometry, material);
-        mesh.rotation.x = -Math.PI / 2; // Adjust the model's initial rotation
-        this.model = mesh;
-        group.add(mesh);
-
-
-      });
+      // const loader = new STLLoader();
+      // loader.load('src/assets/VRRam.stl', (geometry: THREE.BufferGeometry) => {
+      //   console.log("STL load Success");
+      //   const material = new THREE.MeshPhongMaterial({ color: 0x7BAFD4, specular: 0x111111, shininess: 500 });
+      //   const mesh = new THREE.Mesh(geometry, material);
+      //   mesh.rotation.x = -Math.PI / 2; // Adjust the model's initial rotation
+      //   this.model = mesh;
+      //   group.add(mesh);
+      //
+      //
+      // });
 
       const animate = () => {
         requestAnimationFrame(animate);
