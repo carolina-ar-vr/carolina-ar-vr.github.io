@@ -1,7 +1,7 @@
 <template>
   <div class ="grid p-0 grid-cols-1 md:grid-cols-2 md:p-6 lg:grid-cols-5 mb-16">
     <div v-for="member in executiveBoard" class="flex flex-col justify-center items-center">
-      <img v-bind:src ="'src/assets/execPhotos/' + member.image" alt="Exec Image" class = "p-5 object-cover rounded-full h-[300px] w-[300px]">
+      <img v-bind:src = member.image alt="Exec Image" class = "p-5 object-cover rounded-full h-[300px] w-[300px]">
       <h3 class="text-xl font-semibold">{{ member.name }}</h3>
       <p>{{ member.position }}</p>
     </div>
@@ -10,58 +10,69 @@
 
 <script lang="ts">
 
+import Ashley from '../assets/execPhotos/Ashley.png';
+import Arryn from '../assets/execPhotos/Arryn.png';
+import Amisha from '../assets/execPhotos/Amisha.png';
+import Enes from '../assets/execPhotos/Enes.png';
+import Grace from '../assets/execPhotos/Grace.png';
+import Kristina from '../assets/execPhotos/Kristina.png';
+import Mana from '../assets/execPhotos/Mana.png';
+import Martim from '../assets/execPhotos/Martim.png';
+import Yuanyao from '../assets/execPhotos/Yuanyao.png';
+import Kris from '../assets/execPhotos/Kris.png'
+
 export default {
   data: () => {
     return {
       name: 'Exec-Board',
       executiveBoard: [
         {
-          image: "kris.jpeg",
+          image: Kris,
           name: "Kris Jordan",
           position: "Advisor",
         },
         {
-          image: "Ashley.png",
+          image: Ashley,
           name: "Ashley Neall",
           position: "President",
         },
         {
-          image: "Arryn.jpg",
+          image: Arryn,
           name: "Arryn O'brien",
           position: "Software Lead",
         },
         {
-          image: "Martim.jpg",
+          image: Martim,
           name: "Martim Gaspar",
           position: "Hardware Lead",
         },
         {
-          image: "Grace.jpg",
+          image: Grace,
           name: "Grace Fei",
           position: "Design Lead",
         },
         {
-          image: "Yuanyao.jpg",
+          image: Yuanyao,
           name: "Yuanyao Lin",
           position: "Web Lead",
         },
         {
-          image: "Amisha.jpg",
+          image: Amisha,
           name: "Amisha Wadhwa",
           position: "Event Chair",
         },
         {
-          image: "Kristina.jpg",
+          image: Kristina,
           name: "Kristina Valikhovskaya",
           position: "Treasurer",
         },
         {
-          image: "Mana.jpg",
+          image: Mana,
           name: "Mana Rose",
           position: "Media Chair",
         },
         {
-          image: "Enes.jpg",
+          image: Enes,
           name: "Enes Eroglu",
           position: "Outreach Chair",
         }
