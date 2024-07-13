@@ -20,9 +20,10 @@
   -webkit-text-size-adjust: 100%;
 
   border-radius: 6px;
-  background: #7EBDE5;
+  /*background: #7EBDE5;*/
+  background: #121212;
 
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   /*box-shadow: 0p x 12px 54px 0px rgba(78, 69, 62, 0.27);*/
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div class ="grid p-0 grid-cols-1 md:grid-cols-2 md:p-6 lg:grid-cols-5 mb-16">
     <div v-for="member in executiveBoard" class="flex flex-col justify-center items-center">
-      <img :src ="member.image" alt="Exec Image" class = "p-5 object-cover rounded-full h-[300px] w-[300px]">
+      <img v-bind:src ="'src/assets/execPhotos/' + member.image" alt="Exec Image" class = "p-5 object-cover rounded-full h-[300px] w-[300px]">
       <h3 class="text-xl font-semibold">{{ member.name }}</h3>
       <p>{{ member.position }}</p>
     </div>
@@ -10,65 +10,58 @@
 
 <script lang="ts">
 
-import Ashley from '../assets/execPhotos/Ashley.png';
-import Arryn from '../assets/execPhotos/Arryn.jpg';
-import Amisha from '../assets/execPhotos/Amisha.jpg';
-import Enes from '../assets/execPhotos/Enes.jpg';
-import Grace from '../assets/execPhotos/Grace.jpg';
-import Kristina from '../assets/execPhotos/Kristina.jpg';
-import Mana from '../assets/execPhotos/Mana.jpg';
-import Martim from '../assets/execPhotos/Martim.jpg';
-import Yuanyao from '../assets/execPhotos/Yuanyao.jpg';
-
-
-
 export default {
   data: () => {
     return {
       name: 'Exec-Board',
       executiveBoard: [
         {
-          image: Ashley,
+          image: "kris.jpeg",
+          name: "Kris Jordan",
+          position: "Advisor",
+        },
+        {
+          image: "Ashley.png",
           name: "Ashley Neall",
           position: "President",
         },
         {
-          image: Arryn,
+          image: "Arryn.jpg",
           name: "Arryn O'brien",
           position: "Software Lead",
         },
         {
-          image: Martim,
+          image: "Martim.jpg",
           name: "Martim Gaspar",
           position: "Hardware Lead",
         },
         {
-          image: Grace,
+          image: "Grace.jpg",
           name: "Grace Fei",
           position: "Design Lead",
         },
         {
-          image: Yuanyao,
+          image: "Yuanyao.jpg",
           name: "Yuanyao Lin",
           position: "Web Lead",
         },
         {
-          image: Amisha,
+          image: "Amisha.jpg",
           name: "Amisha Wadhwa",
           position: "Event Chair",
         },
         {
-          image: Kristina,
+          image: "Kristina.jpg",
           name: "Kristina Valikhovskaya",
           position: "Treasurer",
         },
         {
-          image: Mana,
+          image: "Mana.jpg",
           name: "Mana Rose",
           position: "Media Chair",
         },
         {
-          image: Enes,
+          image: "Enes.jpg",
           name: "Enes Eroglu",
           position: "Outreach Chair",
         }

@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": ".",
   "dependencies": {
     "@vue/cli-service": "^5.0.8",
     "three": "^0.162.0",

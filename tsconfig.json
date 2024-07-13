@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "homepage": ".",
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
