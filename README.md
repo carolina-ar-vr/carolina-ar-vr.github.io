@@ -1,5 +1,6 @@
 # Carolina AR/VR
 
-### A repo for building Carolina AR/VR (CARVR)'s website!
+### A repo for testing + researching for Carolina AR/VR (CARVR)'s website!
+### Utilizing VueJS + Testing with ThreeJS
 
-**visit https://uncarvr.org/**
+run npm dev -> start local server
