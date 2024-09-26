@@ -1,11 +1,10 @@
-
 <template>
   <div id="rams-head-container" ref="ramContainer" @mousemove="onMouseMove"></div>
 </template>
 
 <script lang="ts">
 import * as THREE from 'three';
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
+import {STLLoader} from 'three/examples/jsm/loaders/STLLoader.js';
 
 export default {
   data: () => {
@@ -49,7 +48,7 @@ export default {
       const posArray = new Float32Array(particlesCount * 3); // Multiply by 3 for x, y, z coordinates for each particle
 
       // Populate position array with random positions for each particle
-      for(let i = 0; i < particlesCount * 3; i++) {
+      for (let i = 0; i < particlesCount * 3; i++) {
         // Random positions around the model
         posArray[i] = (Math.random() - 0.5) * 500; // Adjust the 500 value to spread out the particles more or less
       }
@@ -87,7 +86,11 @@ export default {
       const loader = new STLLoader();
       loader.load('src/assets/VRRam.stl', (geometry: THREE.BufferGeometry) => {
         console.log("STL load Success");
-        const material = new THREE.MeshPhongMaterial({ color: 0x7BAFD4, specular: 0x111111, shininess: 500 });
+        const material = new THREE.MeshPhongMaterial({
+          color: 0x7BAFD4,
+          specular: 0x111111,
+          shininess: 500
+        });
         const mesh = new THREE.Mesh(geometry, material);
         mesh.rotation.x = -Math.PI / 2; // Adjust the model's initial rotation
         this.model = mesh;
@@ -108,7 +111,7 @@ export default {
 
     onMouseMove(event: MouseEvent) {
       this.mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-      this.mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+      this.mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
     },
 
     updateModelRotation() {

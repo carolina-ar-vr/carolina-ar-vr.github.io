@@ -1,6 +1,6 @@
 <template>
-  <div class = "purpleFade absolute -z-10 overflow-hidden hidden md:block">
-    <div class = "title">CARVR</div>
+  <div class="purpleFade absolute -z-10 overflow-hidden hidden md:block">
+    <div class="title">CARVR</div>
   </div>
 </template>
 

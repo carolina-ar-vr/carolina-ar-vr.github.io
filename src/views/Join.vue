@@ -1,5 +1,5 @@
 <template>
-  <div class = "title">
+  <div class="title">
     JOIN
   </div>
 </template>

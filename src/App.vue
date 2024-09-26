@@ -6,21 +6,21 @@ import Hero from './components/Hero.vue'
 <template>
   <div class="w-full px-1 top-0 z-10 fixed flex content-center justify-center pt-4">
     <div class="sm:w-5/6 md:w-7/12 nav flex content-center justify-center shadow-2xl">
-      <nav-bar className = "top w-screen"></nav-bar>
+      <nav-bar className="top w-screen"></nav-bar>
     </div>
   </div>
 
 
-  <div class = " w-full justify-center flex">
+  <div class=" w-full justify-center flex">
     <div class="w-full h-screen">
-      <hero className = ""></hero>
+      <hero className=""></hero>
     </div>
   </div>
 </template>
 
 <style>
-  .nav {
-    border-radius: 15px;
-    background-color: rgba(126, 189, 229, 0.70);
-  }
+.nav {
+  border-radius: 15px;
+  background-color: rgba(126, 189, 229, 0.70);
+}
 </style>

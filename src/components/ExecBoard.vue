@@ -1,7 +1,8 @@
 <template>
-  <div class ="grid p-0 grid-cols-1 md:grid-cols-2 md:p-6 lg:grid-cols-5 mb-16">
+  <div class="grid p-0 grid-cols-1 md:grid-cols-2 md:p-6 lg:grid-cols-5 mb-16">
     <div v-for="member in executiveBoard" class="flex flex-col justify-center items-center">
-      <img v-bind:src = member.image alt="Exec Image" class = "p-5 object-cover rounded-full h-[300px] w-[300px]">
+      <img v-bind:src=member.image alt="Exec Image"
+           class="p-5 object-cover rounded-full h-[300px] w-[300px]">
       <h3 class="text-xl font-semibold">{{ member.name }}</h3>
       <p>{{ member.position }}</p>
     </div>

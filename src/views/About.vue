@@ -6,7 +6,8 @@
         <h2 class="text-3xl font-bold mb-8">Executive Board</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Executive Board Members -->
-          <div v-for="member in executiveBoard" :key="member.id" class="bg-white rounded-lg shadow-md p-6">
+          <div v-for="member in executiveBoard" :key="member.id"
+               class="bg-white rounded-lg shadow-md p-6">
             <h3 class="text-xl font-semibold mb-2">{{ member.name }}</h3>
             <p>{{ member.position }}</p>
             <p>{{ member.bio }}</p>
@@ -21,7 +22,8 @@
         <h2 class="text-3xl font-bold mb-8">Additional Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Additional Team Members -->
-          <div v-for="member in additionalTeam" :key="member.id" class="bg-white rounded-lg shadow-md p-6">
+          <div v-for="member in additionalTeam" :key="member.id"
+               class="bg-white rounded-lg shadow-md p-6">
             <h3 class="text-xl font-semibold mb-2">{{ member.name }}</h3>
             <p>{{ member.position }}</p>
           </div>
@@ -31,7 +33,7 @@
   </div>
 </template>
 
-<script lang = ts>
+<script lang=ts>
 export default {
   data() {
     return {
@@ -56,7 +58,7 @@ export default {
     };
   }
 };
-</script >
+</script>
 
 <style>
 </style>
