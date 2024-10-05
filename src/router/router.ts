@@ -3,6 +3,7 @@ import About from '../views/About.vue';
 import Home from '../views/Home.vue';
 import Join from '../views/Join.vue';
 import Discover from '../views/Discover.vue';
+import Conference from "../views/Conference.vue";
 
 
 // The router object to hold the router history and the different routes
@@ -28,6 +29,11 @@ const router = createRouter({
             path: '/discover',
             name: 'Discover',
             component: Discover
+        },
+        {
+            path: '/realityfest',
+            name: 'Conference',
+            component: Conference
         },
     ],
 });

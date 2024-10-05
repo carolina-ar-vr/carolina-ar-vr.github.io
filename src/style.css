@@ -43,7 +43,6 @@ a:hover.footer {
     color: inherit;
 }
 
-/* 768 is md for tailwind */
 @media (max-width: 768px) {
     a {
         transition-duration: 0ms;

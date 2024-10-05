@@ -2,8 +2,8 @@
   <!-- carolina ar/vr-->
 
   <section class="align-middle">
-    <div class="w-full h-screen flex flex-row">
-      <div class="w-full flex items-center md:w-1/2">
+    <div class="w-screen h-screen flex flex-row">
+      <div class="w-screen flex items-center md:w-1/2">
         <div class="justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
             <h1 class="glitch text-6xl title text-center md:text-7xl md:text-left md:left-auto md:translate-x-0"
@@ -13,7 +13,7 @@
                 data-text="AR/VR">AR/VR</h1>
           </div>
           <div class="pt-10 pb-14 px-10 text text-center md:text-left md:px-0">
-            Carolina AR/VR (aka CARVR) is UNC-Chapel Hill’s extended reality student organization!
+            UNC-Chapel Hill’s extended reality student organization!
           </div>
           <div class="flex justify-center md:justify-start">
             <a href="https://discord.gg/cYseCtevW9">
@@ -26,7 +26,7 @@
       </div>
       <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:block">
         <purple-fade class="w-full"></purple-fade>
-        <img src="../assets/CARVR2D.png" alt="carvrlogo">
+        <fade-in-image src="/images/CARVR2D.png"></fade-in-image>
       </div>
     </div>
   </section>
@@ -47,7 +47,7 @@
             <h1 class="glitch text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
                 data-text="WHAT IS XR">WHAT IS XR</h1>
           </div>
-          <div class="px-6 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">
+          <div class="mx-4 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">
             Extended Reality (XR) is an umbrella term encapsulating any technology that provides
             immersive experiences through
             any sensory domain. XR technology is constantly expanding, and immersion can be achieved
@@ -164,9 +164,10 @@ import PinkFade from '../components/pinkFade.vue';
 import PurpleFade from '../components/purpleFade.vue';
 import CarvrFooter from "../components/CarvrFooter.vue";
 import ExecBoard from "../components/ExecBoard.vue";
+import FadeInImage from "../components/FadeInImage.vue";
 
 export default {
-  components: {ExecBoard, CarvrFooter, PurpleFade, PinkFade},
+  components: {FadeInImage, ExecBoard, CarvrFooter, PurpleFade, PinkFade},
   data: () => {
     return {
       name: 'Home'
