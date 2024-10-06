@@ -26,7 +26,7 @@
       </div>
       <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:block">
         <purple-fade class="w-full"></purple-fade>
-        <fade-in-image src="/images/CARVR2D.png"></fade-in-image>
+        <fade-in-image src='../assets/CARVR2D.png' alt="carvr logo"></fade-in-image>
       </div>
     </div>
   </section>
