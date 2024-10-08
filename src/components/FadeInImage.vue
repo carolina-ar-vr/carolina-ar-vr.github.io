@@ -14,12 +14,14 @@
 
 import CARVR2D from '../assets/CARVR2D.png'
 
+
+// TODO: Fix image building to make reusable
 export default {
   name: "FadeInImage",
   props: {
     src: {
       type: String,
-      required: true,
+      // required: true,
     },
     alt: {
       type: String,

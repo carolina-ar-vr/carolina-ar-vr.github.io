@@ -26,7 +26,7 @@
       </div>
       <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:block">
         <purple-fade class="w-full"></purple-fade>
-        <fade-in-image src='../assets/CARVR2D.png' alt="carvr logo"></fade-in-image>
+        <fade-in-image alt="carvr logo"></fade-in-image>
       </div>
     </div>
   </section>
@@ -47,7 +47,7 @@
             <h1 class="glitch text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
                 data-text="WHAT IS XR">WHAT IS XR</h1>
           </div>
-          <div class="mx-4 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">
+          <div class="px-4 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">
             Extended Reality (XR) is an umbrella term encapsulating any technology that provides
             immersive experiences through
             any sensory domain. XR technology is constantly expanding, and immersion can be achieved
