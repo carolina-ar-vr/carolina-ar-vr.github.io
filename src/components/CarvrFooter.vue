@@ -34,6 +34,11 @@ export default {
                 LinkedIn
               </a>
             </li>
+            <li>
+              <a href="https://heellife.unc.edu/organization/carvr" class="nav_text">
+                HeelLife
+              </a>
+            </li>
           </ul>
         </div>
       </div>
