@@ -18,11 +18,11 @@
           <li class="pr-12">
             <a href="https://github.com/carolina-ar-vr" class="nav_text">Projects</a>
           </li>
-          <li class="pr-12">
-            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}" class="nav_text">
-              Reality Fest
-            </router-link>
-          </li>
+<!--          <li class="pr-12">-->
+<!--            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}" class="nav_text">-->
+<!--              Reality Fest-->
+<!--            </router-link>-->
+<!--          </li>-->
         </ul>
         <li class="flex-shrink-0 ml-auto p-2 md:hidden">
           <router-link to="/">
