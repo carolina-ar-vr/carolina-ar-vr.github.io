@@ -1,6 +1,6 @@
 <template>
   <div class="h-full accent-black w-full flex-col">
-    <div class="w-screen h-1/2 flex text-center justify-center">
+    <div class="w-full h-1/2 flex text-center justify-center">
       <div class="absolute title">
         DISCORD
       </div>
@@ -8,7 +8,7 @@
         DISCORD
       </div>
     </div>
-    <div class="relative w-screen h-full flex justify-center">
+    <div class="relative w-full h-full flex justify-center">
       <div class="absolute title">
         GETTING STARTED
       </div>

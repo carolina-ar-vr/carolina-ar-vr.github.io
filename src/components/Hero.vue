@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="w-screen h-full">
+  <div class="">
     <router-view></router-view>
   </div>
 </template>

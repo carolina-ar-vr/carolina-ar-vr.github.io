@@ -7,18 +7,18 @@
       </router-link>
       <div class="flex items-center h-20"> <!-- New wrapper for the remaining navbar items -->
         <ul class="hidden md:flex">
-          <li class="mr-12">
+          <li class="pr-12">
             <router-link to="/" :class="{active: isActive('/')}" class="nav_text">
               Home
             </router-link>
           </li>
-          <li class="mr-12">
+          <li class="pr-12">
             <a href="https://discord.gg/cYseCtevW9" class="nav_text">Join</a>
           </li>
-          <li class="mr-12">
+          <li class="pr-12">
             <a href="https://github.com/carolina-ar-vr" class="nav_text">Projects</a>
           </li>
-          <li class="mr-12">
+          <li class="pr-12">
             <router-link to="/realityfest" :class="{active: isActive('/realityfest')}" class="nav_text">
               Reality Fest
             </router-link>

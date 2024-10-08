@@ -21,7 +21,7 @@ export default {
   props: {
     src: {
       type: String,
-      // required: true,
+      default: '../assets/CARVR2D.png',
     },
     alt: {
       type: String,
@@ -38,10 +38,6 @@ export default {
     imageClasses() {
       return this.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20";
     },
-    imageSrc() {
-      // Resolve the correct image path using Vite's asset handling
-      return new URL(this.src, import.meta.url).href;
-    }
   },
   mounted() {
     setTimeout(() => {

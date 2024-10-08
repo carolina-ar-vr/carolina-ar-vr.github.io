@@ -2,8 +2,8 @@
   <!-- carolina ar/vr-->
 
   <section class="align-middle">
-    <div class="w-screen h-screen flex flex-row">
-      <div class="w-screen flex items-center md:w-1/2">
+    <div class="w-full h-screen flex flex-row">
+      <div class="w-full flex items-center md:w-1/2">
         <div class="justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
             <h1 class="glitch text-6xl title text-center md:text-7xl md:text-left md:left-auto md:translate-x-0"
