@@ -55,9 +55,11 @@
             <a href="https://github.com/carolina-ar-vr" @click="toggleMobileMenu" class="nav_text">Projects</a>
           </li>
           <li class="p-4">
-            <router-link to="/realityfest" @click="toggleMobileMenu" class="nav_text">
-              Reality Fest
-            </router-link>
+            <a href="https://www.eventbrite.com/e/reality-fest-tickets-1027663799087?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" @click="toggleMobileMenu" class="nav_text">Reality Fest RSVP</a>
+
+<!--            <router-link to="/realityfest" @click="toggleMobileMenu" class="nav_text">-->
+<!--              Reality Fest-->
+<!--            </router-link>-->
           </li>
         </ul>
       </div>
