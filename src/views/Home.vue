@@ -2,7 +2,7 @@
   <!-- carolina ar/vr-->
 
   <section class="align-middle">
-    <div class="w-full h-screen flex flex-row">
+    <div class="w-full min-h-screen flex flex-row">
       <div class="w-full flex items-center md:w-1/2">
         <div class="justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
@@ -93,7 +93,7 @@
               <div class="bg-carvr-footer w-full h-full shadow-2xl">
                 <div class="h-1/2 p-6 justify-center items-center flex">
                   <img src="../assets/CARVR-Learn.jpeg" alt="whatwedo1"
-                       class="object-cover h-[208px] w-[322px]">
+                       class="object-cover md:h-[208px] md:w-[322px]">
                 </div>
                 <div class="px-6 pb-10 space-y-2 ">
                   <div class="subtitle">

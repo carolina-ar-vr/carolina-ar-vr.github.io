@@ -20,7 +20,7 @@
           <li class="pr-12">
             <a href="https://github.com/carolina-ar-vr" class="nav_text">Projects</a>
           </li>
-          <li class="pr-12">
+          <li class="">
             <a href="https://www.eventbrite.com/e/reality-fest-tickets-1027663799087?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" class="nav_text">Reality Fest RSVP</a>
             <!--            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}" class="nav_text">-->
 <!--              Reality Fest-->
@@ -28,9 +28,11 @@
           </li>
         </ul>
         <!-- Mobile Menu Button -->
-        <button @click="toggleMobileMenu" class="flex-shrink-0 p-6 md:hidden">
-          <img src='../assets/mobilemenu.svg' alt="menu" class="w-[25px] h-[25px]"/>
-        </button>
+        <div class = "p-4">
+          <button @click="toggleMobileMenu" class="flex-shrink-0 md:hidden">
+            <img src='../assets/mobilemenu.svg' alt="menu" class="w-[25px] h-[25px]"/>
+          </button>
+        </div>
       </div>
     </div>
     <transition
