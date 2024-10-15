@@ -11,7 +11,7 @@ import Hero from './components/Hero.vue'
   </div>
 
 
-  <div class="w-full justify-center flex">
+  <div class="justify-center flex sm:w-full">
     <div class="w-full h-full">
       <hero class=""></hero>
     </div>
