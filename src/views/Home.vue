@@ -2,7 +2,7 @@
   <!-- carolina ar/vr-->
 
   <section class="align-middle">
-    <div class="w-full min-h-screens flex flex-row">
+    <div class="w-full min-h-screen flex flex-row">
       <div class="w-full flex items-center md:w-1/2">
         <div class="justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
@@ -44,7 +44,7 @@
       <div class="w-full flex md:w-1/2 md:pt-0">
         <div class="flex-col md:text-left 2xl:justify-center flex">
           <div class="grid place-items-center text-center pt-10 md:pt-0">
-            <h1 class="glitch text-4xl sm:text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
+            <h1 class="glitch text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
                 data-text="WHAT IS XR">WHAT IS XR</h1>
           </div>
           <div class="px-4 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">

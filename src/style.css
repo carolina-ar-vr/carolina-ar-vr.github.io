@@ -22,9 +22,11 @@
     border-radius: 6px;
     /*background: #7EBDE5;*/
     background: #121212;
+
     /*overflow-x: hidden;*/
     /*box-shadow: 0p x 12px 54px 0px rgba(78, 69, 62, 0.27);*/
 }
+
 a {
     font-weight: 500;
     color: #646cff;
@@ -44,9 +46,6 @@ a:hover.footer {
 @media (max-width: 768px) {
     a {
         transition-duration: 0ms;
-    }
-    :root {
-        zoom: 74%;
     }
 }
 body {

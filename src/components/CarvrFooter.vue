@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <section class="bg-transparent md:bg-carvr-footer w-full">
+  <section class="bg-transparent md:bg-carvr-footer">
     <div class="px-16 purpleGradient h-full w-full">
       <div class="flex items-center justify-center">
         <div class="flex flex-row h-12 items-center">
