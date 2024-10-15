@@ -2,7 +2,7 @@
   <!-- carolina ar/vr-->
 
   <section class="align-middle">
-    <div class="w-full min-h-screens flex flex-row">
+    <div class="w-full min-h-screen flex flex-row">
       <div class="w-full flex items-center md:w-1/2">
         <div class="justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">

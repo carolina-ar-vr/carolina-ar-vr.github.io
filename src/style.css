@@ -45,9 +45,9 @@ a:hover.footer {
     a {
         transition-duration: 0ms;
     }
-    :root {
-        zoom: 74%;
-    }
+    /*:root {*/
+    /*    zoom: 74%;*/
+    /*}*/
 }
 body {
     margin: 0;
