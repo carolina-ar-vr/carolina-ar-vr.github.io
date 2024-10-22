@@ -1,5 +1,4 @@
 <script lang="ts">
-import RFDesktop from '../assets/RF_HL.png';
 import RFMobile from '../assets/RFPoster.png';
 import {defineComponent} from "vue";
 import CarvrFooter from "../components/CarvrFooter.vue"
@@ -21,7 +20,6 @@ export default defineComponent({
   },
   data() {
     return {
-      imageUrlDesktop: RFDesktop,
       imageUrlMobile: RFMobile,
     };
   },
