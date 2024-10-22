@@ -38,7 +38,7 @@
         <div class="justify-center px-12 flex">
           <pink-fade class></pink-fade>
           <img src="../assets/GBMPhoto.png" alt="gbmphoto"
-               class="rounded-2xl shadow-2xl 2xl:max-w-3xl">
+               class="rounded-2xl shadow-2xl 2xl:w-3xl">
         </div>
       </div>
       <div class="w-full flex md:w-1/2 md:pt-0">

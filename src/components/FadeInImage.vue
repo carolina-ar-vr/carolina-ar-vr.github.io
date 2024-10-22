@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script lang ="ts">
+<script lang="ts">
 
 import CARVR2D from '../assets/CARVR2D.png'
 

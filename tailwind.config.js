@@ -13,6 +13,9 @@ export default {
         'purple-fade': '#554688',
         'pink-fade': '#EA3381',
       },
+      backgroundImage: {
+        'RF': '../src/assets/CARVR2D.png',
+      }
     },
     screens: {
       'sm': '640px',
