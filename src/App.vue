@@ -41,4 +41,5 @@ const showHeader = computed(() => {
   border-radius: 15px;
   background-color: rgba(126, 189, 229, 0.70);
 }
+
 </style>

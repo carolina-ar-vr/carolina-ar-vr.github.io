@@ -15,6 +15,19 @@ export default {
       },
       backgroundImage: {
         'RF': '../src/assets/CARVR2D.png',
+      },
+      keyframes: {
+        appear: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
+        animation: {
+          appear: "appear 0.5s ease-in-out",
+        },
       }
     },
     screens: {

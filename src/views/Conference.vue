@@ -22,54 +22,67 @@ export default defineComponent({
   data() {
     return {
       imageUrlMobile: RFMobile,
+      isVisible: false,
     };
   },
+  computed: {
+    dropInAnimation() {
+      return this.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20";
+    },
+  },
+  mounted() {
+    setTimeout(() => {
+      this.isVisible = true;
+    }, 200);
+  },
 })
+
 </script>
 
 <template>
   <div class="relative w-screen">
-    <!-- Full-screen background image -->
     <div
         class="relative h-screen w-full bg-cover bg-bottom md:bg-center bg-fixed"
         :style="{ backgroundImage: `url('${imageUrlMobile}')` }"
     >
-      <div class="w-full h-1/2">
-        <div class="grid place-items-center md:hidden mt-48">
-          <h1 class="text-6xl title text-center"
-              data-text="REALITY">REALITY</h1>
-          <h1 class="text-6xl title text-center"
-              data-text="FEST">FEST 2024</h1>
-        </div>
-        <div class="place-items-center hidden md:block md:place-items-start mt-64">
-          <h1 class="text-9xl title text-center"
-              data-text="REALITY FEST">REALITY FEST 2024
-          </h1>
-        </div>
-      </div>
-      <div class="flex flex-col items-center justify-center mt-10 md:mt-2 z-20">
-        <div class="w-auto flex flex-col items-center cursor-pointer"
-             @click="scrollToSection">
-          <div class="text-xl md:text-3xl">LEARN MORE</div>
-          <div class="animate-bounce mt-4">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                class="w-6 h-6 text-current"
-            >
-              <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19 9l-7 7-7-7"
-              />
-            </svg>
+      <div :class="dropInAnimation">
+        <div class="w-full h-1/2">
+          <div class="grid place-items-center md:hidden mt-48">
+            <h1 class="text-6xl title text-center"
+                data-text="REALITY">REALITY</h1>
+            <h1 class="text-6xl title text-center"
+                data-text="FEST">FEST 2024</h1>
+          </div>
+          <div class="place-items-center hidden md:block md:place-items-start mt-64">
+            <h1 class="text-9xl title text-center"
+                data-text="REALITY FEST">REALITY FEST 2024
+            </h1>
           </div>
         </div>
+        <div class="flex flex-col items-center justify-center mt-10 md:mt-2 z-20">
+          <div class="w-auto flex flex-col items-center cursor-pointer"
+               @click="scrollToSection">
+            <div class="text-xl md:text-3xl">LEARN MORE</div>
+            <div class="animate-bounce mt-4">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-current"
+              >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Gradient overlay for the fade effect -->
       </div>
-      <!-- Gradient overlay for the fade effect -->
       <div
           class="absolute inset-0 pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-[#121212] before:z-0"></div>
     </div>
@@ -151,7 +164,3 @@ export default defineComponent({
   <carvr-footer></carvr-footer>
 
 </template>
-
-<style>
-
-</style>
