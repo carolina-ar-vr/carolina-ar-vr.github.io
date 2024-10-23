@@ -45,7 +45,7 @@ export default defineComponent({
         class="relative h-screen w-full bg-cover bg-bottom md:bg-center bg-fixed"
         :style="{ backgroundImage: `url('${imageUrlMobile}')` }"
     >
-      <div :class="dropInAnimation">
+      <div :class="dropInAnimation" class="flex flex-col items-center justify-center">
         <div class="w-full h-1/2">
           <div class="grid place-items-center md:hidden mt-48">
             <h1 class="text-6xl title text-center"
@@ -53,7 +53,7 @@ export default defineComponent({
             <h1 class="text-6xl title text-center"
                 data-text="FEST">FEST 2024</h1>
           </div>
-          <div class="place-items-center hidden md:block md:place-items-start mt-64">
+          <div class="justify-center hidden md:block md:place-items-start mt-80">
             <h1 class="text-9xl title text-center"
                 data-text="REALITY FEST">REALITY FEST 2024
             </h1>
