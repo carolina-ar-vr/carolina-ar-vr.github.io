@@ -16,6 +16,10 @@ import Elizabeth from '../assets/speakersPhotos/elizabeth_stone.png';
 import Shawna from '../assets/speakersPhotos/shawna_buchanan.png';
 import Sofia from '../assets/speakersPhotos/sofia_aliaga.png';
 import Todd from '../assets/speakersPhotos/todd_cherner.png';
+import Bryce from '../assets/speakersPhotos/bryce_ikeda.png';
+import Jade from '../assets/speakersPhotos/jade_kandel.png';
+import Jovan from '../assets/speakersPhotos/jovan_tormes.png';
+import Richard from '../assets/speakersPhotos/richard_marks.png';
 
 
 export default {
@@ -24,24 +28,41 @@ export default {
       name: 'Reality-Board',
       realityBoard: [
         {
-          image: Alexis,
-          name: "Alexis Spring",
+          image: Richard,
+          name: "Dr. Richard Marks",
         },
+
         {
           image: Elizabeth,
-          name: "Elizabeth Stone",
+          name: "Dr. Elizabeth Stone",
+        },
+        {
+          image: Sofia,
+          name: "Dr. Sofia Aliaga",
         },
         {
           image: Shawna,
           name: "Shawna Buchanan",
         },
         {
-          image: Sofia,
-          name: "Sofia Aliaga",
+          image: Alexis,
+          name: "Alexis Springs",
         },
         {
           image: Todd,
           name: "Todd Cherner",
+        },
+        {
+          image: Bryce,
+          name: "Bryce Ikeda",
+        },
+        {
+          image: Jade,
+          name: "Jade Kandel",
+        },
+        {
+          image: Jovan,
+          name: "Jovan Tormes Vaquerano",
         },
       ],
     };

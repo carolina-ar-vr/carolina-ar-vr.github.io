@@ -17,7 +17,7 @@
           </div>
           <div class="flex justify-center md:justify-start">
             <a href="https://discord.gg/cYseCtevW9">
-              <button class="purpleGradient h-16 w-64 rounded-sm">
+              <button class="purpleGradient h-16 w-64">
                 JOIN
               </button>
             </a>
@@ -84,7 +84,7 @@
                     out various XR hardware while meeting other
                     passionate students!</p>
                   <a href="https://heellife.unc.edu/organization/carvr">
-                    <button class="blueGradient h-10 w-40 shadow-2xl rounded-sm">
+                    <button class="blueGradient h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>
@@ -103,7 +103,7 @@
                     showcases, and other relevant events each semester for students to learn more
                     about XR.</p>
                   <a href="https://linktr.ee/carvr">
-                    <button class="blueGradient h-10 w-40 shadow-2xl rounded-sm">
+                    <button class="blueGradient h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>
@@ -125,7 +125,7 @@
                   <!-- include the link to aboutus after it is implemented-->
 
                   <a href="https://discord.gg/cYseCtevW9">
-                    <button class="blueGradient h-10 w-40 shadow-2xl rounded-sm">
+                    <button class="blueGradient h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>

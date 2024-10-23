@@ -3,10 +3,11 @@ import RFMobile from '../assets/RFPoster.png';
 import {defineComponent} from "vue";
 import CarvrFooter from "../components/CarvrFooter.vue"
 import RealityFestBoard from "../components/RealityFestBoard.vue";
+import RealityFestSponsors from "../components/RealityFestSponsors.vue";
 
 export default defineComponent({
   name: 'Conference',
-  components: {RealityFestBoard, CarvrFooter},
+  components: {RealityFestSponsors, RealityFestBoard, CarvrFooter},
   methods: {
     scrollToSection() {
       const section = document.getElementById('target-section');
@@ -30,7 +31,7 @@ export default defineComponent({
   <div class="relative w-screen">
     <!-- Full-screen background image -->
     <div
-        class="relative h-screen w-full bg-cover md:bg-center bg-fixed"
+        class="relative h-screen w-full bg-cover bg-bottom md:bg-center bg-fixed"
         :style="{ backgroundImage: `url('${imageUrlMobile}')` }"
     >
       <div class="w-full h-1/2">
@@ -80,20 +81,27 @@ export default defineComponent({
                 data-text="REALITY FEST">REALITY FEST
             </h1>
             <h1 class="text-5xl title text-center w-full"
-                data-text="REALITY FEST">'Catchphrase'
+                data-text="REALITY FEST">October 26th, 2024
             </h1>
-            <div class="flex flex-row justify-center w-full space-x-12 md:space-x-32 mt-20">
+            <div class="flex flex-row justify-center w-full space-x-8 mt-20">
               <div class="flex justify-center md:justify-start">
                 <a href="https://www.eventbrite.com/e/reality-fest-tickets-1027663799087?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl ">
-                  <button class="purpleGradient h-16 w-32 md:w-64 rounded-sm">
+                  <button class="purpleGradient h-16 w-32 md:w-48">
                     RSVP
                   </button>
                 </a>
               </div>
               <div class="flex justify-center md:justify-start">
-                <a href="https://forms.gle/QVhQQdbAmfVVPxBf6">
-                  <button class="purpleGradient h-16 w-32 md:w-64 rounded-sm">
-                    CONTRIBUTE
+                <a href="https://forms.gle/Y2LNtroATTbwy7f8A">
+                  <button class="purpleGradient h-16 w-32 md:w-48">
+                    VOLUNTEER
+                  </button>
+                </a>
+              </div>
+              <div class="flex justify-center md:justify-start">
+                <a href="https://docs.google.com/document/d/1Zi27T38dN1tiYmseN1M5yHR6-Ky-LkMoBGyOCU0ecBo/edit?usp=sharing">
+                  <button class="purpleGradient h-16 w-32 md:w-48">
+                    SCHEDULE
                   </button>
                 </a>
               </div>
@@ -117,7 +125,7 @@ export default defineComponent({
           and experienced XR enthusiasts throughout academia and industry in North Carolina and
           beyond.
           It is an opportunity for students and professionals from UNC-Chapel Hill, Duke University,
-          NC State University, along with various other institutions and companies to connect.'
+          NC State University, along with various other institutions and companies to connect.
         </div>
       </div>
     </section>
@@ -128,6 +136,14 @@ export default defineComponent({
         </div>
         <reality-fest-board></reality-fest-board>
       </div>
+    </section>
+    <section>
+      <div class="w-full">
+        <div class="grid place-items-center text-center mt-20">
+          <h1 class="text-6xl md:text-7xl title text-center overflow-y-hidden">SPONSORS</h1>
+        </div>
+      </div>
+      <reality-fest-sponsors class="mt-10"></reality-fest-sponsors>
     </section>
     <section class="align-middle h-[100px]">
     </section>
