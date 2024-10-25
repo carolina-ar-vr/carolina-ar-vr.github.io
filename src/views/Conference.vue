@@ -1,5 +1,5 @@
 <script lang="ts">
-import RFFinalBG from '../assets/carvrBackgroundRealityFest.jpeg';
+import RFFinalBackground from '../assets/carvrBackgroundRealityFest.png';
 import {defineComponent} from "vue";
 import CarvrFooter from "../components/CarvrFooter.vue"
 import RealityFestBoard from "../components/RealityFestBoard.vue";
@@ -8,7 +8,7 @@ import RealityFestExhibitors from "../components/RealityFestExhibitors.vue";
 
 export default defineComponent({
   name: 'Conference',
-  components: {RealityFestExhibitors, RealityFestSponsors, RealityFestBoard, CarvrFooter, RFFinalBG},
+  components: {RealityFestExhibitors, RealityFestSponsors, RealityFestBoard, CarvrFooter},
   methods: {
     scrollToSection() {
       const section = document.getElementById('reality-main');
@@ -22,19 +22,9 @@ export default defineComponent({
   },
   data() {
     return {
-      RFFinalBG: RFFinalBG,
+      RFFinalBG: RFFinalBackground,
       isVisible: false,
     };
-  },
-  computed: {
-    dropInAnimation() {
-      return this.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20";
-    },
-  },
-  mounted() {
-    setTimeout(() => {
-      this.isVisible = true;
-    }, 200);
   },
 })
 
@@ -46,7 +36,7 @@ export default defineComponent({
         class="relative h-screen w-full bg-cover bg-right-bottom md:bg-center bg-fixed"
         :style="{ backgroundImage: `url('${RFFinalBG}')` }"
     >
-      <div :class="dropInAnimation" class="flex flex-col items-center justify-center h-screen">
+      <div class="flex flex-col items-center justify-center h-screen">
         <div class="w-full h-1/2 grid place-items-center">
           <div class="grid place-items-center md:hidden">
             <h1 class="text-6xl title text-center" data-text="REALITY">REALITY</h1>
