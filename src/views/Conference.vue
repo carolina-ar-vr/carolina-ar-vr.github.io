@@ -1,5 +1,5 @@
 <script lang="ts">
-import RFMobile from '../assets/RFPoster.png';
+import RFFinalBG from '../assets/carvrBackgroundRealityFest.jpeg';
 import {defineComponent} from "vue";
 import CarvrFooter from "../components/CarvrFooter.vue"
 import RealityFestBoard from "../components/RealityFestBoard.vue";
@@ -8,7 +8,7 @@ import RealityFestExhibitors from "../components/RealityFestExhibitors.vue";
 
 export default defineComponent({
   name: 'Conference',
-  components: {RealityFestExhibitors, RealityFestSponsors, RealityFestBoard, CarvrFooter},
+  components: {RealityFestExhibitors, RealityFestSponsors, RealityFestBoard, CarvrFooter, RFFinalBG},
   methods: {
     scrollToSection() {
       const section = document.getElementById('reality-main');
@@ -22,7 +22,7 @@ export default defineComponent({
   },
   data() {
     return {
-      imageUrlMobile: RFMobile,
+      RFFinalBG: RFFinalBG,
       isVisible: false,
     };
   },
@@ -43,8 +43,8 @@ export default defineComponent({
 <template>
   <div class="relative w-screen">
     <div
-        class="relative h-screen w-full bg-cover bg-bottom md:bg-center bg-fixed"
-        :style="{ backgroundImage: `url('${imageUrlMobile}')` }"
+        class="relative h-screen w-full bg-cover bg-right-bottom md:bg-center bg-fixed"
+        :style="{ backgroundImage: `url('${RFFinalBG}')` }"
     >
       <div :class="dropInAnimation" class="flex flex-col items-center justify-center h-screen">
         <div class="w-full h-1/2 grid place-items-center">

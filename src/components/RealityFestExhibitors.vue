@@ -17,6 +17,8 @@ import Ivone from '../assets/devPhotos/Ivone.jpg';
 import Jae from '../assets/devPhotos/Jae.jpg';
 import Michael from '../assets/exhibitorPhotos/michael_halpert.png';
 import Yanming from '../assets/exhibitorPhotos/yanming_xiu.png';
+import Vanessa from '../assets/exhibitorPhotos/vanessa_tang.png';
+import George from '../assets/exhibitorPhotos/george_kilmenko.png';
 
 export default {
   data: () => {
@@ -46,6 +48,14 @@ export default {
         {
           image: Yanming,
           name: "Yanming Xiu",
+        },
+        {
+          image: Vanessa,
+          name: "Vanessa Tang",
+        },
+        {
+          image: George,
+          name: "George Kilmenko",
         },
       ],
     };
