@@ -4,13 +4,14 @@ import {defineComponent} from "vue";
 import CarvrFooter from "../components/CarvrFooter.vue"
 import RealityFestBoard from "../components/RealityFestBoard.vue";
 import RealityFestSponsors from "../components/RealityFestSponsors.vue";
+import RealityFestExhibitors from "../components/RealityFestExhibitors.vue";
 
 export default defineComponent({
   name: 'Conference',
-  components: {RealityFestSponsors, RealityFestBoard, CarvrFooter},
+  components: {RealityFestExhibitors, RealityFestSponsors, RealityFestBoard, CarvrFooter},
   methods: {
     scrollToSection() {
-      const section = document.getElementById('target-section');
+      const section = document.getElementById('reality-main');
       if (section) {
         window.scrollTo({
           top: section.offsetTop,
@@ -51,12 +52,11 @@ export default defineComponent({
             <h1 class="text-6xl title text-center" data-text="REALITY">REALITY</h1>
             <h1 class="text-6xl title text-center" data-text="FEST">FEST 2024</h1>
           </div>
-          <div class="hidden md:grid place-items-center mt-10">
+          <div class="hidden mt-72 md:grid place-items-center">
             <h1 class="text-9xl title text-center">REALITY FEST 2024</h1>
           </div>
         </div>
-        <!-- "Learn More" section with high z-index -->
-        <div class="flex flex-col items-center justify-center mt-10 md:mt-2 z-10 relative">
+        <div class="flex flex-col items-center justify-center mt-10 md:mt-64 z-10 relative">
           <div class="w-auto flex flex-col items-center cursor-pointer" @click="scrollToSection">
             <div class="text-xl md:text-3xl">LEARN MORE</div>
             <div class="animate-bounce mt-4">
@@ -71,7 +71,7 @@ export default defineComponent({
         <div class="absolute inset-x-0 bottom-0 h-[500px] md:h-[200px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-[#121212] before:z-0"></div>
       </div>
     </div>
-    <section id="target-section" class="align-middle h-full">
+    <section id="reality-main" class="align-middle h-full">
       <div class="w-full flex flex-col md:flex-row">
         <div class="w-full flex items-center md:h-full md:w-1/2">
           <div class="flex flex-col md:place-items-start w-full md:mt-48">
@@ -113,7 +113,7 @@ export default defineComponent({
         </div>
       </div>
     </section>
-    <section>
+    <section class="about">
       <div class="flex flex-col md:place-items-start w-full mt-24">
         <h1 class="text-6xl md:text-7xl title text-center w-full">WHAT IS REALITY FEST?</h1>
         <div class="text-xl text text-center w-full md:px-48 mt-10">Reality Fest is an XR conference
@@ -127,21 +127,31 @@ export default defineComponent({
         </div>
       </div>
     </section>
-    <section>
+    <section class="speakers">
       <div class="w-full">
         <div class="grid place-items-center text-center mt-20">
           <h1 class="text-6xl md:text-7xl title text-center overflow-y-hidden">SPEAKERS</h1>
         </div>
-        <reality-fest-board></reality-fest-board>
+        <reality-fest-board/>
       </div>
     </section>
-    <section>
+
+    <section class="exhibitors">
+      <div class="w-full">
+        <div class="grid place-items-center text-center mt-20">
+          <h1 class="text-6xl md:text-7xl title text-center overflow-y-hidden">EXHIBITORS</h1>
+        </div>
+      </div>
+      <reality-fest-exhibitors/>
+    </section>
+
+    <section class="sponsors">
       <div class="w-full">
         <div class="grid place-items-center text-center mt-20">
           <h1 class="text-6xl md:text-7xl title text-center overflow-y-hidden">SPONSORS</h1>
         </div>
       </div>
-      <reality-fest-sponsors class="mt-10"></reality-fest-sponsors>
+      <reality-fest-sponsors class="mt-10"/>
     </section>
     <section class="align-middle h-[100px]">
     </section>
