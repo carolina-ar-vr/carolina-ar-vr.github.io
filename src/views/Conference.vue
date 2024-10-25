@@ -45,46 +45,31 @@ export default defineComponent({
         class="relative h-screen w-full bg-cover bg-bottom md:bg-center bg-fixed"
         :style="{ backgroundImage: `url('${imageUrlMobile}')` }"
     >
-      <div :class="dropInAnimation" class="flex flex-col items-center justify-center">
-        <div class="w-full h-1/2">
-          <div class="grid place-items-center md:hidden mt-48">
-            <h1 class="text-6xl title text-center"
-                data-text="REALITY">REALITY</h1>
-            <h1 class="text-6xl title text-center"
-                data-text="FEST">FEST 2024</h1>
+      <div :class="dropInAnimation" class="flex flex-col items-center justify-center h-screen">
+        <div class="w-full h-1/2 grid place-items-center">
+          <div class="grid place-items-center md:hidden">
+            <h1 class="text-6xl title text-center" data-text="REALITY">REALITY</h1>
+            <h1 class="text-6xl title text-center" data-text="FEST">FEST 2024</h1>
           </div>
-          <div class="justify-center hidden md:block md:place-items-start mt-80">
-            <h1 class="text-9xl title text-center"
-                data-text="REALITY FEST">REALITY FEST 2024
-            </h1>
+          <div class="hidden md:grid place-items-center mt-10">
+            <h1 class="text-9xl title text-center">REALITY FEST 2024</h1>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-center mt-10 md:mt-2 z-20">
-          <div class="w-auto flex flex-col items-center cursor-pointer"
-               @click="scrollToSection">
+        <!-- "Learn More" section with high z-index -->
+        <div class="flex flex-col items-center justify-center mt-10 md:mt-2 z-10 relative">
+          <div class="w-auto flex flex-col items-center cursor-pointer" @click="scrollToSection">
             <div class="text-xl md:text-3xl">LEARN MORE</div>
             <div class="animate-bounce mt-4">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  class="w-6 h-6 text-current"
-              >
-                <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19 9l-7 7-7-7"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 text-current">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
               </svg>
             </div>
           </div>
         </div>
+
         <!-- Gradient overlay for the fade effect -->
+        <div class="absolute inset-x-0 bottom-0 h-[500px] md:h-[200px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-[#121212] before:z-0"></div>
       </div>
-      <div
-          class="absolute inset-0 pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-[#121212] before:z-0"></div>
     </div>
     <section id="target-section" class="align-middle h-full">
       <div class="w-full flex flex-col md:flex-row">
@@ -96,24 +81,24 @@ export default defineComponent({
             <h1 class="text-5xl title text-center w-full"
                 data-text="REALITY FEST">October 26th, 2024
             </h1>
-            <div class="flex flex-row justify-center w-full space-x-8 mt-20">
+            <div class="flex flex-row justify-center w-full space-x-2 md:space-x-8 mt-20 px-2">
               <div class="flex justify-center md:justify-start">
                 <a href="https://www.eventbrite.com/e/reality-fest-tickets-1027663799087?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl ">
-                  <button class="purpleGradient h-16 w-32 md:w-48">
+                  <button class="purpleGradient h-12 w-32 md:w-48">
                     RSVP
                   </button>
                 </a>
               </div>
               <div class="flex justify-center md:justify-start">
                 <a href="https://forms.gle/Y2LNtroATTbwy7f8A">
-                  <button class="purpleGradient h-16 w-32 md:w-48">
+                  <button class="purpleGradient h-12 w-32 md:w-48">
                     VOLUNTEER
                   </button>
                 </a>
               </div>
               <div class="flex justify-center md:justify-start">
                 <a href="https://docs.google.com/document/d/1Zi27T38dN1tiYmseN1M5yHR6-Ky-LkMoBGyOCU0ecBo/edit?usp=sharing">
-                  <button class="purpleGradient h-16 w-32 md:w-48">
+                  <button class="purpleGradient h-12 w-32 md:w-48">
                     SCHEDULE
                   </button>
                 </a>

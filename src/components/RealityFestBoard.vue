@@ -1,8 +1,8 @@
 <template>
-  <div class="grid p-0 grid-cols-1 md:grid-cols-2 md:p-6 lg:grid-cols-5 mb-16">
+  <div class="grid p-0 grid-cols-1 md:grid-cols-2 md:p-6 lg:grid-cols-6 mb-16">
     <div v-for="member in realityBoard" class="flex flex-col justify-center items-center">
       <img v-bind:src=member.image alt="Exec Image"
-           class="p-5 rounded-full h-[300px] w-[300px] object-cover">
+           class="p-5 rounded-full h-[300px] w-[300px] lg:h-[250px] lg:w-[250px] object-cover">
       <h3 class="text-xl font-semibold">{{ member.name }}</h3>
       <!--      <p>{{ member.position }}</p>-->
     </div>
@@ -20,6 +20,9 @@ import Bryce from '../assets/speakersPhotos/bryce_ikeda.png';
 import Jade from '../assets/speakersPhotos/jade_kandel.png';
 import Jovan from '../assets/speakersPhotos/jovan_tormes.png';
 import Richard from '../assets/speakersPhotos/richard_marks.png';
+import Brian from '../assets/speakersPhotos/brian_moynihan.png';
+import Lukasz from '../assets/speakersPhotos/lukasz_porwol.png';
+
 
 
 export default {
@@ -63,6 +66,14 @@ export default {
         {
           image: Jovan,
           name: "Jovan Tormes Vaquerano",
+        },
+        {
+          image: Brian,
+          name: "Brian Moynihan",
+        },
+        {
+          image: Lukasz,
+          name: "Lukasz Porwol",
         },
       ],
     };
