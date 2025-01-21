@@ -13,14 +13,13 @@
 
 import Ashley from '../assets/execPhotos/Ashley.png';
 import Arryn from '../assets/execPhotos/Arryn.png';
-// import Amisha from '../assets/execPhotos/Amisha.png';
-import Enes from '../assets/execPhotos/Enes.png';
 import Grace from '../assets/execPhotos/Grace.png';
 import Kristina from '../assets/execPhotos/Kristina.png';
-import Mana from '../assets/execPhotos/Mana.png';
-// import Martim from '../assets/execPhotos/Martim.png';
 import Yuanyao from '../assets/execPhotos/Yuanyao.png';
-import Kris from '../assets/execPhotos/Kris.png'
+import Kris from '../assets/execPhotos/Kris.png';
+import Jonathan from '../assets/execPhotos/Jonathan.png';
+import Ivone from '../assets/execPhotos/Ivone.png';
+import Carrie from '../assets/execPhotos/Carrie.png';
 
 export default {
   data: () => {
@@ -42,9 +41,14 @@ export default {
           name: "Arryn O'brien",
           position: "Software Lead",
         },
+        {
+          image: Jonathan,
+          name: "Jonathan Zhao",
+          position: "Software Lead",
+        },
         // {
-        //   image: Martim,
-        //   name: "Martim Gaspar",
+        //   image: ,
+        //   name: "",
         //   position: "Hardware Lead",
         // },
         {
@@ -53,13 +57,18 @@ export default {
           position: "Design Lead",
         },
         {
+          image: Ivone,
+          name: "Ivone Alexander",
+          position: "Design Lead",
+        },
+        {
           image: Yuanyao,
           name: "Yuanyao Lin",
           position: "Web Lead",
         },
         // {
-        //   image: Amisha,
-        //   name: "Amisha Wadhwa",
+        //   image: ,
+        //   name: "",
         //   position: "Event Chair",
         // },
         {
@@ -67,15 +76,15 @@ export default {
           name: "Kristina Valikhovskaya",
           position: "Treasurer",
         },
+        // {
+        //   image: ,
+        //   name: "",
+        //   position: "External Outreach Chair",
+        // },
         {
-          image: Mana,
-          name: "Mana Rose",
-          position: "Media Chair",
-        },
-        {
-          image: Enes,
-          name: "Enes Eroglu",
-          position: "Outreach Chair",
+          image: Carrie,
+          name: "Carrie Gan",
+          position: "Internal Outreach Chair",
         }
       ],
     };
