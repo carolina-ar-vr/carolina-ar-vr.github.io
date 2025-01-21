@@ -20,13 +20,12 @@
           <li class="pr-12">
             <a href="https://github.com/carolina-ar-vr" class="nav_text">Projects</a>
           </li>
-          <li class="">
-            <!--            <a href="https://www.eventbrite.com/e/reality-fest-tickets-1027663799087?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" class="nav_text">Reality Fest RSVP</a>-->
-            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}"
-                         class="nav_text">
-              Reality Fest
-            </router-link>
-          </li>
+<!--          <li class="">-->
+<!--            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}"-->
+<!--                         class="nav_text">-->
+<!--              Reality Fest-->
+<!--            </router-link>-->
+<!--          </li>-->
         </ul>
         <!-- Mobile Menu Button -->
         <div class="p-4">
@@ -58,11 +57,11 @@
           <li class="p-4">
             <a href="https://github.com/carolina-ar-vr" @click="toggleMobileMenu" class="nav_text">Projects</a>
           </li>
-          <li class="p-4">
-            <router-link to="/realityfest" @click="toggleMobileMenu" class="nav_text">
-              Reality Fest
-            </router-link>
-          </li>
+<!--          <li class="p-4">-->
+<!--            <router-link to="/realityfest" @click="toggleMobileMenu" class="nav_text">-->
+<!--              Reality Fest-->
+<!--            </router-link>-->
+<!--          </li>-->
         </ul>
       </div>
     </transition>
