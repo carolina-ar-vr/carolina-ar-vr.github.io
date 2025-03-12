@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Work Sans, serif;
     line-height: 1.5;
     font-weight: 400;
 
@@ -18,13 +20,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
-
     border-radius: 6px;
-    /*background: #7EBDE5;*/
-    background: #121212;
-
-    /*overflow-x: hidden;*/
-    /*box-shadow: 0p x 12px 54px 0px rgba(78, 69, 62, 0.27);*/
 }
 
 * {
@@ -64,7 +60,6 @@ body {
 }
 
 .title {
-    font-family: Chakra Petch;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -72,7 +67,6 @@ body {
 
 .subtitle {
     color: #FFF;
-    font-family: Inter, serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
@@ -81,7 +75,6 @@ body {
 
 .text {
     color: #FFF;
-    font-family: Inter, serif;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +84,6 @@ body {
 button {
     color: #FFF;
     border-radius: 12px;
-    font-family: Chakra Petch;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -99,7 +91,6 @@ button {
 }
 
 .nav_text {
-    font-family: Chakra Petch, serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -108,26 +99,11 @@ button {
 }
 
 .nav_background {
-    border-radius: 6px 6px 0px 0px;
-    background: #99c9ea;
+    background: #111218;
 }
+.hero_background {
+    background: #111218;
 
-.purpleFade {
-    width: 447px;
-    height: 540px;
-    flex-shrink: 0;
-    opacity: 0.50;
-    background: #554688;
-    filter: blur(100px);
-}
-
-.pinkFade {
-    width: 447px;
-    height: 540px;
-    flex-shrink: 0;
-    opacity: 0.30;
-    background: #EA3381;
-    filter: blur(100px);
 }
 
 .purpleGradient {
