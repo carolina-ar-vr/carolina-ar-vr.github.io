@@ -24,8 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:block">
-        <purple-fade class="w-full"></purple-fade>
+      <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-1/2 lg:block overflow-hidden">
         <fade-in-image alt="carvr logo"></fade-in-image>
       </div>
     </div>
@@ -36,7 +35,6 @@
     <div class="w-full h-full flex flex-col pb-16 md:flex-row">
       <div class="w-full md:w-1/2">
         <div class="justify-center px-12 flex">
-          <pink-fade class></pink-fade>
           <img src="../assets/GBMPhoto.png" alt="gbmphoto"
                class="rounded-2xl shadow-2xl 2xl:w-3xl">
         </div>
@@ -120,10 +118,6 @@
                   </div>
                   <p class="h-32 text-md xl:h-24 2xl:h-20"> Our development team collaborates to
                     create amazing XR experiences! </p>
-
-
-                  <!-- include the link to aboutus after it is implemented-->
-
                   <a href="https://discord.gg/cYseCtevW9">
                     <button class="blueGradient h-10 w-40 shadow-2xl">
                       LEARN MORE
@@ -160,14 +154,12 @@
 </template>
 
 <script lang="ts">
-import PinkFade from '../components/pinkFade.vue';
-import PurpleFade from '../components/purpleFade.vue';
 import CarvrFooter from "../components/CarvrFooter.vue";
 import ExecBoard from "../components/ExecBoard.vue";
 import FadeInImage from "../components/FadeInImage.vue";
 
 export default {
-  components: {FadeInImage, ExecBoard, CarvrFooter, PurpleFade, PinkFade},
+  components: {FadeInImage, ExecBoard, CarvrFooter},
   data: () => {
     return {
       name: 'Home'

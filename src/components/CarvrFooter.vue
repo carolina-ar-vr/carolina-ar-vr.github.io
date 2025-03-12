@@ -10,7 +10,7 @@ export default {
 
 <template>
   <section class="bg-transparent md:bg-carvr-footer">
-    <div class="px-16 purpleGradient h-full w-full">
+    <div class="px-16 h-full w-full">
       <div class="flex items-center justify-center">
         <div class="flex flex-row h-12 items-center">
           <ul class="flex justify-between space-x-4 sm:space-x-6 md:space-x-10">

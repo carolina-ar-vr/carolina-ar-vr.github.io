@@ -19,27 +19,21 @@ const showHeader = computed(() => {
 </script>
 
 <template>
-  <div class="w-full top-0 z-10 fixed flex content-center justify-center pt-2">
+  <div class="w-full z-10 fixed md:relative flex content-center justify-center">
     <div v-if="showHeader == true"
-         class="sm:w-5/6 md:w-7/12 nav flex content-center justify-center shadow-2xl w-screen">
-      <nav-bar class="top w-full"></nav-bar>
+         class="w-full nav flex content-center justify-center shadow-2xl">
+      <nav-bar class="top w-full nav_background"></nav-bar>
     </div>
     <div v-else class="flex w-screen">
       <nav-bar-conference class="top w-full"></nav-bar-conference>
     </div>
   </div>
-  <div class="w-full justify-center flex">
-    <div class="w-full h-full">
-      <hero class=""></hero>
-    </div>
+  <div class="w-full h-full justify-center flex">
+    <hero class="hero_background"></hero>
   </div>
 
 </template>
 
 <style>
-.nav {
-  border-radius: 15px;
-  background-color: rgba(126, 189, 229, 0.70);
-}
 
 </style>

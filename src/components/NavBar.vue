@@ -1,12 +1,9 @@
 <template>
-  <section class="h-full z-10 w-full items-center ">
+  <section class="h-full z-10 w-full items-center">
     <div class="flex justify-between">
-      <!-- Logo -->
-      <!-- Adjusted to 'justify-start' to align items to the left -->
       <router-link to="/" class="w-min-[50px] md:w-fit">
         <img src='../assets/CARVR2D.png' alt="carvr logo" class="w-24 h-20">
       </router-link>
-      <!-- NavBar Buttons -->
       <div class="flex items-center h-20">
         <ul class="hidden md:flex">
           <li class="pr-12">
@@ -88,5 +85,5 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 </style>
