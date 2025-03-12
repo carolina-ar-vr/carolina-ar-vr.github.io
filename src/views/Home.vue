@@ -69,57 +69,57 @@
           <div class="flex flex-col justify-center items-center">
             <div
                 class="flex flex-col justify-center items-center px-16 py-6 w-full space-y-6 lg:mt-0 lg:space-y-0 lg:space-x-10 lg:flex-row">
-              <div class="bg-carvr-footer w-full h-full shadow-2xl ">
+              <div class="whatWeDo w-full h-full shadow-2xl ">
                 <div class="h-1/2 p-6 justify-center items-center flex">
                   <img src="../assets/CARVR-Explore.jpeg" alt="whatwedo1"
                        class="object-cover h-[208px] w-[322px]">
                 </div>
-                <div class="h-full px-6 pb-10 space-y-2 ">
-                  <div class="subtitle">
-                    Explore
+                  <div class="h-full px-6 pb-10 space-y-2 ">
+                    <div class="whatWeDoTitle">
+                      Explore
+                    </div>
+                    <p class="h-32 text-md xl:h-24 2xl:h-20"> We host social events where you can try
+                      out various XR hardware while meeting other
+                      passionate students!</p>
+                    <a href="https://heellife.unc.edu/organization/carvr">
+                      <button class="whatWeDoButton h-10 w-40 shadow-2xl">
+                        LEARN MORE
+                      </button>
+                    </a>
                   </div>
-                  <p class="h-32 text-md xl:h-24 2xl:h-20"> We host social events where you can try
-                    out various XR hardware while meeting other
-                    passionate students!</p>
-                  <a href="https://heellife.unc.edu/organization/carvr">
-                    <button class="blueGradient h-10 w-40 shadow-2xl">
-                      LEARN MORE
-                    </button>
-                  </a>
-                </div>
               </div>
-              <div class="bg-carvr-footer w-full h-full shadow-2xl">
+              <div class="whatWeDo w-full h-full shadow-2xl">
                 <div class="h-1/2 p-6 justify-center items-center flex">
                   <img src="../assets/CARVR-Learn.jpeg" alt="whatwedo1"
                        class="object-cover md:h-[208px] md:w-[322px]">
                 </div>
                 <div class="px-6 pb-10 space-y-2 ">
-                  <div class="subtitle">
+                  <div class="whatWeDoTitle">
                     Learn
                   </div>
                   <p class="h-32 text-md xl:h-24 2xl:h-20"> We host workshops, panels, research
                     showcases, and other relevant events each semester for students to learn more
                     about XR.</p>
                   <a href="https://linktr.ee/carvr">
-                    <button class="blueGradient h-10 w-40 shadow-2xl">
+                    <button class="whatWeDoButton h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>
                 </div>
               </div>
-              <div class="bg-carvr-footer w-full h-full shadow-2xl ">
+              <div class="whatWeDo w-full h-full shadow-2xl ">
                 <div class="h-1/2 p-6 justify-center items-center flex">
                   <img src="../assets/CARVR-Develop.jpg" alt="whatwedo1"
                        class="object-cover object-top h-[208px] w-[322px]">
                 </div>
                 <div class="h-full px-6 pb-10 space-y-2 ">
-                  <div class="subtitle">
+                  <div class="whatWeDoTitle">
                     Develop
                   </div>
                   <p class="h-32 text-md xl:h-24 2xl:h-20"> Our development team collaborates to
                     create amazing XR experiences! </p>
                   <a href="https://discord.gg/cYseCtevW9">
-                    <button class="blueGradient h-10 w-40 shadow-2xl">
+                    <button class="whatWeDoButton h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>
