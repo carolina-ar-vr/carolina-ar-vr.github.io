@@ -1,8 +1,6 @@
 <template>
-  <!-- carolina ar/vr-->
-
-  <section class="align-middle">
-    <div class="w-full min-h-screen flex flex-row">
+  <section class="landing-page">
+    <div class="w-full min-h-screen flex flex-row align-middle">
       <div class="w-full flex items-center md:w-1/2">
         <div class="justify-center flex-col relative pb-14 md:pl-14">
           <div class="grid place-items-center md:place-items-start">
@@ -30,39 +28,11 @@
     </div>
   </section>
 
-  <!-- what is ar/vr -->
-  <section class="">
-    <div class="w-full h-full flex flex-col pb-16 md:flex-row">
-      <div class="w-full md:w-1/2">
-        <div class="justify-center px-12 flex">
-          <img src="../assets/GBMPhoto.png" alt="gbmphoto"
-               class="rounded-2xl shadow-2xl 2xl:w-3xl">
-        </div>
-      </div>
-      <div class="w-full flex md:w-1/2 md:pt-0">
-        <div class="flex-col md:text-left 2xl:justify-center flex">
-          <div class="grid place-items-center text-center pt-10 md:pt-0">
-            <h1 class="glitch text-5xl title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
-                data-text="WHAT IS XR">WHAT IS XR</h1>
-          </div>
-          <div class="px-4 pt-6 text text-center md:text-left md:px-0 md:pt-12 2xl:pl-2">
-            Extended Reality (XR) is an umbrella term encapsulating any technology that provides
-            immersive experiences through
-            any sensory domain. XR technology is constantly expanding, and immersion can be achieved
-            through a variety of interfaces
-            (e.g. head-mounted displays, olfactory atomizers, haptic wearables).
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- what we do section -->
-  <section class="relative ">
+  <section class="what-we-do">
     <div class="w-full flex flex-col md:flex-row md:h-full md:pb-20">
       <div class="w-full flex flex-col">
         <div class="grid place-items-center text-center">
-          <h1 class="glitch text-5xl mt-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
+          <h1 class="glitch text-5xl my-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
               data-text="WHAT WE DO">WHAT WE DO</h1>
         </div>
         <div class="w-full flex-1 overflow-hidden">
@@ -132,10 +102,21 @@
     </div>
   </section>
 
-  <section>
+  <section class="past-events">
+    <div class="w-full flex flex-col">
+      <div class="grid place-items-center text-center">
+        <h1 class="glitch text-5xl my-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
+            data-text="PAST EVENTS"> PAST EVENTS
+        </h1>
+        <past-events></past-events>
+      </div>
+    </div>
+  </section>
+
+  <section class="exec-board">
     <div class="w-full">
       <div class="grid place-items-center text-center">
-        <h1 class="glitch text-5xl mt-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
+        <h1 class="glitch text-5xl my-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
             data-text="ABOUT US">ABOUT US</h1>
       </div>
       <exec-board></exec-board>
@@ -157,9 +138,10 @@
 import CarvrFooter from "../components/CarvrFooter.vue";
 import ExecBoard from "../components/ExecBoard.vue";
 import FadeInImage from "../components/FadeInImage.vue";
+import PastEvents from "../components/PastEvents.vue";
 
 export default {
-  components: {FadeInImage, ExecBoard, CarvrFooter},
+  components: {PastEvents, FadeInImage, ExecBoard, CarvrFooter},
   data: () => {
     return {
       name: 'Home'

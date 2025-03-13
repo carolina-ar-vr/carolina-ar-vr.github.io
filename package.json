@@ -5,6 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/vue-splide": "^0.6.12",
     "@vue/cli-service": "^5.0.8",
     "three": "^0.162.0",
     "vue": "^3.3.4",
