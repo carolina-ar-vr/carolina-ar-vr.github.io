@@ -113,7 +113,6 @@ button {
     transform: scale(1.05);
 }
 
-
 .whatWeDoTitle {
     color: #FFF;
     font-size: 1.5rem;
@@ -124,6 +123,19 @@ button {
 
 .whatWeDoButton {
     background: #5886AE;
+}
+
+.pastEvents {
+    border-radius: 24px;
+    border: 1px solid #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pastEvents:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
 }
 
 .glow-text {
