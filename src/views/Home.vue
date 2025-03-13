@@ -15,7 +15,7 @@
           </div>
           <div class="flex justify-center md:justify-start">
             <a href="https://discord.gg/cYseCtevW9">
-              <button class="purpleGradient h-16 w-64">
+              <button class="button text-xl h-16 w-64">
                 JOIN
               </button>
             </a>
@@ -38,7 +38,7 @@
         <div class="w-full flex-1 overflow-hidden">
           <div class="flex flex-col justify-center items-center">
             <div
-                class="flex flex-col justify-center items-center px-16 py-6 w-full space-y-6 lg:mt-0 lg:space-y-0 lg:space-x-10 lg:flex-row">
+                class="flex flex-col justify-center items-center px-6 py-6 w-full md:px-16 space-y-6 lg:mt-0 lg:space-y-0 lg:space-x-10 lg:flex-row">
               <div class="whatWeDo w-full h-full shadow-2xl ">
                 <div class="h-1/2 p-6 justify-center items-center flex">
                   <img src="../assets/CARVR-Explore.jpeg" alt="whatwedo1"
@@ -52,7 +52,7 @@
                       out various XR hardware while meeting other
                       passionate students!</p>
                     <a href="https://heellife.unc.edu/organization/carvr">
-                      <button class="whatWeDoButton h-10 w-40 shadow-2xl">
+                      <button class="button h-10 w-40 shadow-2xl">
                         LEARN MORE
                       </button>
                     </a>
@@ -71,7 +71,7 @@
                     showcases, and other relevant events each semester for students to learn more
                     about XR.</p>
                   <a href="https://linktr.ee/carvr">
-                    <button class="whatWeDoButton h-10 w-40 shadow-2xl">
+                    <button class="button h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>
@@ -89,7 +89,7 @@
                   <p class="h-48 py-2 text-md xl:h-24 2xl:h-20"> Our development team collaborates to
                     create amazing XR experiences! </p>
                   <a href="https://discord.gg/cYseCtevW9">
-                    <button class="whatWeDoButton h-10 w-40 shadow-2xl">
+                    <button class="button h-10 w-40 shadow-2xl">
                       LEARN MORE
                     </button>
                   </a>
@@ -117,7 +117,7 @@
     <div class="w-full">
       <div class="grid place-items-center text-center">
         <h1 class="glitch text-5xl my-20 title text-center md:text-6xl md:text-left md:left-auto md:translate-x-0"
-            data-text="ABOUT US">ABOUT US</h1>
+            data-text="EXECUTIVE BOARD">EXECUTIVE BOARD</h1>
       </div>
       <exec-board></exec-board>
     </div>

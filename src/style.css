@@ -121,7 +121,7 @@ button {
     line-height: normal;
 }
 
-.whatWeDoButton {
+.button {
     background: #5886AE;
 }
 
@@ -140,7 +140,7 @@ button {
 
 .glow-text {
     color: transparent;
-    -webkit-text-stroke: 2px #EF84F5;
+    -webkit-text-stroke: 2px #5886AE;
     font-weight: 700;
 }
 
@@ -160,7 +160,7 @@ button {
     width: 100%;
     height: 100%;
     left: 2px;
-    text-shadow: -2px 0 #ff00c1;
+    text-shadow: -2px 0 #5886AE;
     clip: rect(44px, 450px, 56px, 0);
     animation: glitch-anim 5s infinite linear alternate-reverse;
 }
@@ -173,7 +173,7 @@ button {
     width: 100%;
     height: 100%;
     left: -2px;
-    text-shadow: -2px 0 #ff00c1, 2px 2px #ff00c1;
+    text-shadow: -2px 0 #5886AE, 2px 2px #5886AE;
     clip: rect(44px, 450px, 56px, 0);
     animation: glitch-anim2 5s infinite linear alternate-reverse;
 }
