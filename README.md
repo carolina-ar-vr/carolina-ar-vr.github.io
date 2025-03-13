@@ -1,6 +1,16 @@
 # Carolina AR/VR
 
-### A repo for testing + researching for Carolina AR/VR (CARVR)'s website!
-### Utilizing VueJS + Testing with ThreeJS
+### A repo for Carolina AR/VR (CARVR)'s website!
+### Utilizing VueJS + TailwindCSS
 
-run npm dev -> start local server
+
+Starting Local Server for testing:
+```console
+npm run dev
+```
+
+Deployment for GitHub Pages:
+```console
+npm run build
+```
+

@@ -17,7 +17,7 @@
         }
       }">
     <SplideSlide v-for="photo in photos" class="p-4">
-      <img class="pastEvents h-[300px] w-[300px] md:h-[450px] md:w-[450px] object-cover mx-auto" v-bind:src=photo.image alt="Sample 2">
+      <img class="pastEvents h-[275px] w-[275px] md:h-[450px] md:w-[450px] object-cover mx-auto" v-bind:src=photo.image alt="Sample 2">
       <h3 class="text-lg font-bold mt-8">{{photo.description}}</h3>
     </SplideSlide>
   </Splide>
