@@ -48,7 +48,7 @@
                     <div class="whatWeDoTitle">
                       Explore
                     </div>
-                    <p class="h-32 text-md xl:h-24 2xl:h-20"> We host social events where you can try
+                    <p class="h-48 py-2 text-md xl:h-24 2xl:h-20"> We host social events where you can try
                       out various XR hardware while meeting other
                       passionate students!</p>
                     <a href="https://heellife.unc.edu/organization/carvr">
@@ -67,7 +67,7 @@
                   <div class="whatWeDoTitle">
                     Learn
                   </div>
-                  <p class="h-32 text-md xl:h-24 2xl:h-20"> We host workshops, panels, research
+                  <p class="h-48 text-md xl:h-24 2xl:h-20"> We host workshops, panels, research
                     showcases, and other relevant events each semester for students to learn more
                     about XR.</p>
                   <a href="https://linktr.ee/carvr">
@@ -86,7 +86,7 @@
                   <div class="whatWeDoTitle">
                     Develop
                   </div>
-                  <p class="h-32 text-md xl:h-24 2xl:h-20"> Our development team collaborates to
+                  <p class="h-48 py-2 text-md xl:h-24 2xl:h-20"> Our development team collaborates to
                     create amazing XR experiences! </p>
                   <a href="https://discord.gg/cYseCtevW9">
                     <button class="whatWeDoButton h-10 w-40 shadow-2xl">
