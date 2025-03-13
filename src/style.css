@@ -82,7 +82,7 @@ button {
 .nav_text {
     font-size: 1rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
     line-height: normal;
 }
@@ -90,9 +90,13 @@ button {
 .nav_background {
     background: #111218;
 }
-.hero_background {
-    background: #111218;
 
+.hero_background {
+    background: linear-gradient(to bottom, #111218 90%, #343166 94%);
+}
+
+.footer_background {
+    background: #343166;
 }
 
 .purpleGradient {

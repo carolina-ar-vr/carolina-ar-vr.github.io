@@ -24,7 +24,6 @@ import Brian from '../assets/speakersPhotos/brian_moynihan.png';
 import Lukasz from '../assets/speakersPhotos/lukasz_porwol.png';
 
 
-
 export default {
   data: () => {
     return {
