@@ -1,8 +1,8 @@
 <template>
   <section class="h-full z-10 w-full items-center">
-    <div class="flex justify-between">
-      <router-link to="/" class="w-min-[50px] md:w-fit p-2">
-        <img src='../assets/CARVR2D.png' alt="carvr logo" class="w-24 h-20">
+    <div class="flex justify-between h-16 sm:h-full">
+      <router-link to="/" class="w-min-[50px] md:w-fit md:p-2">
+        <img src='../assets/CARVR2D.png' alt="carvr logo" class="w-20 h-16 md:w-24 md:h-20">
       </router-link>
       <div class="flex items-center h-20">
         <ul class="hidden md:flex">
