@@ -50,7 +50,8 @@ export default defineComponent({
           <div class="w-auto flex flex-col items-center cursor-pointer" @click="scrollToSection">
             <div class="text-xl md:text-3xl">LEARN MORE</div>
             <div class="animate-bounce mt-4">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 text-current">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                   stroke-width="2" stroke="currentColor" class="w-6 h-6 text-current">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
               </svg>
             </div>
@@ -58,7 +59,8 @@ export default defineComponent({
         </div>
 
         <!-- Gradient overlay for the fade effect -->
-        <div class="absolute inset-x-0 bottom-0 h-[500px] md:h-[200px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-[#121212] before:z-0"></div>
+        <div
+            class="absolute inset-x-0 bottom-0 h-[500px] md:h-[200px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-[#121212] before:z-0"></div>
       </div>
     </div>
     <section id="reality-main" class="align-middle h-full">

@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="">
     <router-view class="router-view" v-slot="{ Component }">
-      <component :is="Component" class="w-full h-full" />
+      <component :is="Component" class="w-full h-full"/>
     </router-view>
   </div>
 </template>

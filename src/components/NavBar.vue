@@ -1,3 +1,23 @@
+<script lang="ts">
+export default {
+  methods: {
+    isActive(routePath: any) {
+      window.scrollTo(0, 0);
+      return this.$route.path === routePath;
+    },
+    toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen;
+    },
+  },
+  data: () => {
+    return {
+      name: 'nav-bar',
+      isMobileMenuOpen: false,
+    };
+  },
+}
+</script>
+
 <template>
   <section class="h-full z-10 w-full items-center">
     <div class="flex justify-between h-16 sm:h-full">
@@ -17,12 +37,12 @@
           <li class="pr-12">
             <a href="https://github.com/carolina-ar-vr" class="nav_text">Projects</a>
           </li>
-<!--          <li class="">-->
-<!--            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}"-->
-<!--                         class="nav_text">-->
-<!--              Reality Fest-->
-<!--            </router-link>-->
-<!--          </li>-->
+          <!--          <li class="">-->
+          <!--            <router-link to="/realityfest" :class="{active: isActive('/realityfest')}"-->
+          <!--                         class="nav_text">-->
+          <!--              Reality Fest-->
+          <!--            </router-link>-->
+          <!--          </li>-->
         </ul>
         <!-- Mobile Menu Button -->
         <div class="p-4">
@@ -54,36 +74,16 @@
           <li class="p-4">
             <a href="https://github.com/carolina-ar-vr" @click="toggleMobileMenu" class="nav_text">Projects</a>
           </li>
-<!--          <li class="p-4">-->
-<!--            <router-link to="/realityfest" @click="toggleMobileMenu" class="nav_text">-->
-<!--              Reality Fest-->
-<!--            </router-link>-->
-<!--          </li>-->
+          <!--          <li class="p-4">-->
+          <!--            <router-link to="/realityfest" @click="toggleMobileMenu" class="nav_text">-->
+          <!--              Reality Fest-->
+          <!--            </router-link>-->
+          <!--          </li>-->
         </ul>
       </div>
     </transition>
   </section>
 </template>
-
-<script lang="ts">
-export default {
-  methods: {
-    isActive(routePath: any) {
-      window.scrollTo(0, 0);
-      return this.$route.path === routePath;
-    },
-    toggleMobileMenu() {
-      this.isMobileMenuOpen = !this.isMobileMenuOpen;
-    },
-  },
-  data: () => {
-    return {
-      name: 'nav-bar',
-      isMobileMenuOpen: false,
-    };
-  },
-}
-</script>
 
 <style>
 </style>
