@@ -1,0 +1,48 @@
+#if UNITY_EDITOR
+using System.IO.Ports;
+#endif
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ArduinoButtonController : MonoBehaviour
+{
+#if UNITY_EDITOR
+    SerialPort sp;
+#endif
+    public Button virtualButton;
+
+    void Start()
+    {
+#if UNITY_EDITOR
+        sp = new SerialPort("COM3", 9600); // Change this to your actual COM port
+        sp.Open();
+        sp.ReadTimeout = 100;
+#endif
+    }
+
+    void Update()
+    {
+#if UNITY_EDITOR
+        if (sp != null && sp.IsOpen)
+        {
+            try
+            {
+                string value = sp.ReadLine().Trim();
+                if (value == "1")
+                {
+                    virtualButton.onClick.Invoke();
+                }
+            }
+            catch { }
+        }
+#endif
+    }
+
+    void OnApplicationQuit()
+    {
+#if UNITY_EDITOR
+        if (sp != null && sp.IsOpen)
+            sp.Close();
+#endif
+    }
+}
