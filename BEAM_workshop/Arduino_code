@@ -1,0 +1,12 @@
+#define TOUCH_PIN 4  // Connect the I/O pin of the sensor to GPIO 4
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(TOUCH_PIN, INPUT);
+}
+
+void loop() {
+  int touchState = digitalRead(TOUCH_PIN);
+  Serial.println(touchState); // Sends 1 when touched, 0 otherwise
+  delay(100);  // Slow it down a bit for serial readability
+}
