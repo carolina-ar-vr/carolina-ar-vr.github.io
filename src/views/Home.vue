@@ -1,12 +1,8 @@
 <template>
   <landing-page/>
-
   <what-we-do/>
-
   <past-events/>
-
   <exec-board/>
-
   <carvr-footer/>
 </template>
 
