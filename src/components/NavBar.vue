@@ -40,7 +40,7 @@ export default {
             <li class="pr-12">
               <a href="https://discord.gg/cYseCtevW9" class="nav_text">Join</a>
             </li>
-            <li class="pr-12">
+            <li class="pr-2">
               <a href="https://github.com/carolina-ar-vr" class="nav_text">Projects</a>
             </li>
             <!--          <li class="">-->
