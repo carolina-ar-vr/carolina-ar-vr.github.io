@@ -130,7 +130,7 @@ export default {
         },
         {
           image: Jasmin,
-          name: "Jasmin",
+          name: "Jasmin Alvarez Martinez",
           position: "Web Lead '22-'23",
         },
         // {
