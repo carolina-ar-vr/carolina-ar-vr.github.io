@@ -35,7 +35,7 @@ export default {
               </router-link>
             </li>
             <li class="pr-12">
-              <a href="https://linktr.ee/carvrapply" class="nav_text">Exec. Applications</a>
+              <a href="https://linktr.ee/carvrapply" class="nav_text">Apply to Exec</a>
             </li>
             <li class="pr-12">
               <a href="https://discord.gg/cYseCtevW9" class="nav_text">Join</a>
@@ -94,7 +94,7 @@ export default {
         </div>
       </transition>
     </section>
-    <banner class="-mt-12 sm:-mt-4"/>
+    <banner class="-mt-8 sm:-mt-4"/>
   </div>
 
 </template>
