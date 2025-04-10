@@ -9,13 +9,13 @@ export default {
 </script>
 
 <template>
-  <section class="footer_background mt-20">
+  <section class="footer_background mt-24">
     <div class="flex flex-col items-center justify-center w-full md:flex-row p-4">
       <div class="flex flex-col justify-center items-center md:justify-end md:flex-row md:space-x-16 w-3/4">
         <router-link to="/" class="flex items-center w-1/2 h-1/2 md:w-1/4 md:h-1/4">
           <img src='../assets/CARVR2D.png' alt="carvr logo">
         </router-link>
-        <a href="https://www.icxr.org/" class="w-2/3 h-1/2 md:w-1/3 md:h-1/3 flex justify-center">
+        <a href="https://www.icxr.org/" class="w-2/3 h-1/3 md:w-1/3 md:h-1/3 flex justify-center">
           <img src="../assets/ICXR-Member-Transparent-White.png" class="" alt="ICXR membership" >
         </a>
       </div>
