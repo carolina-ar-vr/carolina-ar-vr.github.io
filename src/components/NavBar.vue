@@ -75,12 +75,12 @@ export default {
               </router-link>
             </li>
             <li class="p-4">
-              <a href="https://discord.gg/cYseCtevW9" @click="toggleMobileMenu"
-                 class="nav_text">Join</a>
+              <a href="https://linktr.ee/carvrapply"  @click="toggleMobileMenu"
+                 class="nav_text">Apply to Exec</a>
             </li>
             <li class="p-4">
-              <a href="" @click="toggleMobileMenu"
-                 class="nav_text">Exec Applications</a>
+              <a href="https://discord.gg/cYseCtevW9" @click="toggleMobileMenu"
+                 class="nav_text">Join</a>
             </li>
             <li class="p-4">
               <a href="https://github.com/carolina-ar-vr" @click="toggleMobileMenu" class="nav_text">Projects</a>
