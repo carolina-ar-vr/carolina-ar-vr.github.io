@@ -126,7 +126,7 @@ export default {
         {
           image: Martim,
           name: "Martim Gaspar",
-          position: "Hardware Lead '22-'24",
+          position: "Hardware Lead '23-'24",
         },
         {
           image: Jasmin,
