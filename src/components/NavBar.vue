@@ -94,7 +94,6 @@ export default {
         </div>
       </transition>
     </section>
-    <banner class="-mt-8 sm:-mt-4"/>
   </div>
 
 </template>
